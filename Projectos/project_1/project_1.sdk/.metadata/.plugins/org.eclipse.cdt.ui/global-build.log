@@ -2403,3 +2403,2761 @@ mb-size MB3_software.elf  |tee "MB3_software.elf.size"
 Finished building: MB3_software.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
+01:22:43 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5656	    288	   3152	   9096	   2388	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+01:27:33 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:52:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:50:9: warning: unused variable 'input' [-Wunused-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5664	    288	   3152	   9104	   2390	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+01:31:03 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:53:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:50:9: warning: unused variable 'input' [-Wunused-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5792	    288	   3152	   9232	   2410	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+01:34:13 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:53:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:50:9: warning: unused variable 'input' [-Wunused-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5816	    288	   3152	   9256	   2428	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+01:34:32 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `makefile' has modification time 0.16 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:2: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
+  MB_Sleep(1000);   // aguardar 1 segundo (sleep for 1 second)
+  ^
+../src/helloworld.c:53:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:50:9: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5872	    288	   3152	   9312	   2460	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+01:34:39 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.018 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:2: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
+  MB_Sleep(1000);  // aguardar 1 segundo (sleep for 1 second)
+  ^
+../src/helloworld.c:53:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:50:9: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5872	    288	   3152	   9312	   2460	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+01:34:52 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:54:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:51:9: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5872	    288	   3152	   9312	   2460	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+01:35:02 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.11 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:54:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:51:9: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+     u32 input;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5872	    288	   3152	   9312	   2460	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+01:36:43 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.081 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:62:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5756	    288	   3156	   9200	   23f0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:26:55 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.15 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5756	    288	   3156	   9200	   23f0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:27:46 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.49 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+05:28:00 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.11 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:28:39 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.36 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5376	    288	   3152	   8816	   2270	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:28:58 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.092 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5376	    288	   3152	   8816	   2270	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:29:02 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5376	    288	   3152	   8816	   2270	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+05:29:23 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.21 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5404	    288	   3156	   8848	   2290	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:29:25 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.24 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5404	    288	   3156	   8848	   2290	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:29:41 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.59 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5352	    288	   3152	   8792	   2258	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:29:45 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5352	    288	   3152	   8792	   2258	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+05:29:53 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.0015 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+05:30:00 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.41 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+05:30:05 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.43 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:31:14 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+05:32:15 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5364	    288	   3156	   8808	   2268	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+05:32:19 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5364	    288	   3156	   8808	   2268	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+05:36:02 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:64:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5384	    288	   3152	   8824	   2278	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+05:36:04 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.62 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5384	    288	   3152	   8824	   2278	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:42:50 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.6 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:71:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+05:54:16 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.47 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:19:18: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   if(n/base == 0 && n%base == 0 || number_i < 0){
+                  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:81:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:85:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:67:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:49:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+05:54:29 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:81:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:85:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:67:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:49:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+05:54:51 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:83:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:65:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+make: *** [src/helloworld.o] Error 1
+05:55:06 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.6 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6240	    288	   3152	   9680	   25d0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:55:55 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.52 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6284	    288	   3156	   9728	   2600	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:56:25 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.41 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6284	    288	   3156	   9728	   2600	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:56:33 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+05:57:15 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+05:57:51 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.13 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:57:53 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.071 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	MB3_software.elf
+Finished building: MB3_software.elf.size
+make: warning:  Clock skew detected.  Your build may be incomplete.
+ 
+05:58:46 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.27 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+05:59:34 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.23 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:28:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5608	    288	   3152	   9048	   2358	MB3_software.elf
+Finished building: MB3_software.elf.size
+make: warning:  Clock skew detected.  Your build may be incomplete.
+ 
+05:59:37 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.16 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5608	    288	   3152	   9048	   2358	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:00:54 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.18 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, u32 base)
+      ^
+../src/helloworld.c:71:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, u32 base)
+      ^
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, u32 base)
+      ^
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:00:59 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:71:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:01:16 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5976	    288	   3152	   9416	   24c8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:01:18 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.65 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5976	    288	   3152	   9416	   24c8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:01:33 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.49 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5384	    288	   3152	   8824	   2278	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:01:35 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.029 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5384	    288	   3152	   8824	   2278	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:02:28 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.099 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:03:39 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.56 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+06:04:16 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.2 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(output);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:71:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(teste);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:75:2: error: too few arguments to function 'printCharArrayU32'
+  printCharArrayU32(input);
+  ^
+../src/helloworld.c:13:6: note: declared here
+ void printCharArrayU32(u32 n, int base)
+      ^
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:04:32 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.42 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5400	    288	   3152	   8840	   2288	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:04:38 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5400	    288	   3152	   8840	   2288	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:04:45 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.067 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:04:54 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.51 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:05:10 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:15:2: error: variable-sized object may not be initialized
+  u32 number[base] = {0};
+  ^
+../src/helloworld.c:15:22: warning: excess elements in array initializer
+  u32 number[base] = {0};
+                      ^
+../src/helloworld.c:15:22: note: (near initialization for 'number')
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:05:49 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:39:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5992	    288	   3152	   9432	   24d8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:05:52 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.64 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5992	    288	   3152	   9432	   24d8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:06:12 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.54 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:06:44 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(number);
+  ^
+../src/helloworld.c:35:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:35:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:36:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(number_i);
+       ^
+../src/helloworld.c:36:7: note: expected 'void *' but argument is of type 'u32 {aka long unsigned int}'
+../src/helloworld.c:37:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:37:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:43:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: attempt to free a non-heap object 'number' [-Wfree-nonheap-object]
+  free(number);
+  ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15700	   1328	   3220	  20248	   4f18	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:07:43 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `makefile' has modification time 0.55 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(&number);
+  ^
+../src/helloworld.c:35:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:35:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:37:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:37:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:43:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: attempt to free a non-heap object 'number' [-Wfree-nonheap-object]
+  free(&number);
+  ^
+../src/helloworld.c:36:2: warning: attempt to free a non-heap object 'number_i' [-Wfree-nonheap-object]
+  free(&number_i);
+  ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15708	   1328	   3220	  20256	   4f20	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:07:53 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.46 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(number);
+  ^
+../src/helloworld.c:35:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:35:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:36:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(number_i);
+       ^
+../src/helloworld.c:36:7: note: expected 'void *' but argument is of type 'u32 {aka long unsigned int}'
+../src/helloworld.c:37:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:37:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:43:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:35:2: warning: attempt to free a non-heap object 'number' [-Wfree-nonheap-object]
+  free(number);
+  ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15700	   1328	   3220	  20248	   4f18	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:08:53 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.55 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:18:15: error: expected expression before '{' token
+  number[32] = {0};
+               ^
+../src/helloworld.c:38:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(number);
+  ^
+../src/helloworld.c:38:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:38:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:39:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(number_i);
+       ^
+../src/helloworld.c:39:7: note: expected 'void *' but argument is of type 'u32 {aka long unsigned int}'
+../src/helloworld.c:40:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:40:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:46:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:09:03 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:18:11: error: expected expression before '{' token
+  number = {0};
+           ^
+../src/helloworld.c:38:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(number);
+  ^
+../src/helloworld.c:38:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:38:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:39:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(number_i);
+       ^
+../src/helloworld.c:39:7: note: expected 'void *' but argument is of type 'u32 {aka long unsigned int}'
+../src/helloworld.c:40:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:40:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:46:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+make: *** [src/helloworld.o] Error 1
+06:09:12 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.56 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:37:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(number);
+  ^
+../src/helloworld.c:37:2: warning: incompatible implicit declaration of built-in function 'free'
+../src/helloworld.c:37:2: note: include '<stdlib.h>' or provide a declaration of 'free'
+../src/helloworld.c:38:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(number_i);
+       ^
+../src/helloworld.c:38:7: note: expected 'void *' but argument is of type 'u32 {aka long unsigned int}'
+../src/helloworld.c:39:7: warning: passing argument 1 of 'free' makes pointer from integer without a cast [-Wint-conversion]
+  free(j);
+       ^
+../src/helloworld.c:39:7: note: expected 'void *' but argument is of type 'int'
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:45:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:37:2: warning: attempt to free a non-heap object 'number' [-Wfree-nonheap-object]
+  free(number);
+  ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15092	   1332	   3352	  19776	   4d40	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:09:20 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.55 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:41:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5380	    292	   3288	   8960	   2300	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:09:53 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.4 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5380	    292	   3288	   8960	   2300	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:09:57 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.38 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:10:08 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.08 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:11:35 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.65 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:41:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5360	    288	   3184	   8832	   2280	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:11:38 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.46 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5360	    288	   3184	   8832	   2280	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:11:45 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.02 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:11:49 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.4 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:11:55 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.68 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+06:12:25 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.011 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:58:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:40:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5368	    288	   3152	   8808	   2268	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:12:37 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.13 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5368	    288	   3152	   8808	   2268	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:13:41 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.26 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:32:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:67:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:49:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5416	    288	   3152	   8856	   2298	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:13:44 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5416	    288	   3152	   8856	   2298	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:15:36 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.21 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:32:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:67:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:49:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5436	    288	   3156	   8880	   22b0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:15:39 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5436	    288	   3156	   8880	   22b0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:20:03 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.2 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:40:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:57:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:20:11 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.07 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:21:30 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.13 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:40:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:57:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:21:32 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.21 s in the future
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:22:07 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'printCharArrayU32':
+../src/helloworld.c:40:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 0;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:57:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:22:11 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5540	    288	   3156	   8984	   2318	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:23:36 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.036 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:25:00 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:27:55 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.28 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:27:57 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.13 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:29:13 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.47 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5524	    288	   3156	   8968	   2308	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:29:15 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.051 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5524	    288	   3156	   8968	   2308	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:32:31 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5528	    288	   3152	   8968	   2308	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:32:33 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5528	    288	   3152	   8968	   2308	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:32:51 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.67 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+make: warning:  Clock skew detected.  Your build may be incomplete.
+   text	   data	    bss	    dec	    hex	filename
+   5532	    288	   3156	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:32:53 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.02 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5532	    288	   3156	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:33:43 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.53 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5584	    288	   3152	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:33:45 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.67 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5584	    288	   3152	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:35:15 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:35:49 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5576	    288	   3152	   9016	   2338	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:37:24 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.053 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:65:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5644	    288	   3156	   9088	   2380	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:37:28 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.58 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5644	    288	   3156	   9088	   2380	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:38:25 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.0063 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:87:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:69:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5684	    288	   3156	   9128	   23a8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:38:28 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.65 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5684	    288	   3156	   9128	   23a8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:40:41 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.18 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:87:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:69:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5684	    288	   3156	   9128	   23a8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:40:45 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5684	    288	   3156	   9128	   23a8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:42:16 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `makefile' has modification time 0.77 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:72:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5732	    288	   3156	   9176	   23d8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:42:25 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5732	    288	   3156	   9176	   23d8	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+06:42:44 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:72:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5744	    288	   3152	   9184	   23e0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:42:46 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.26 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5744	    288	   3152	   9184	   23e0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:43:20 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.65 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:72:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5728	    288	   3152	   9168	   23d0	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:44:20 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.08 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:62:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:47:47 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.39 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:62:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5592	    288	   3152	   9032	   2348	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:47:52 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.24 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+06:50:07 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.22 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+06:50:12 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.43 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:50:27 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.21 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:50:51 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.22 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:62:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:50:53 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:51:57 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.34 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+06:56:01 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+06:56:09 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+06:56:20 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+06:56:50 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.66 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+07:06:30 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.48 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+07:07:40 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.4 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+07:10:04 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.46 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+07:10:37 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.64 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+07:15:00 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:62:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:16:03 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:66:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5596	    288	   3156	   9040	   2350	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:16:12 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5596	    288	   3156	   9040	   2350	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:18:01 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:68:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5656	    288	   3152	   9096	   2388	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:18:04 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5656	    288	   3152	   9096	   2388	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:19:39 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5612	    288	   3156	   9056	   2360	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:19:42 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5612	    288	   3156	   9056	   2360	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:21:13 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:65:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5588	    288	   3156	   9032	   2348	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:21:16 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5588	    288	   3156	   9032	   2348	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:23:13 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:67:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5640	    288	   3152	   9080	   2378	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:23:15 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5640	    288	   3152	   9080	   2378	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:23:38 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:23:42 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:01 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5608	    288	   3152	   9048	   2358	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:03 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5608	    288	   3152	   9048	   2358	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:21 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:23 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:33 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+make: Nothing to be done for `all'.
+07:25:44 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:25:46 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5580	    288	   3156	   9024	   2340	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:29:51 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:61:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5576	    288	   3152	   9016	   2338	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:34:16 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5576	    288	   3152	   9016	   2338	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:35:23 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:55:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:35:26 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:35:46 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:55:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5532	    288	   3156	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:36:00 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5532	    288	   3156	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:36:26 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:55:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:36:28 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:36:43 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:55:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:36:46 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:46:50 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:46:54 **** Incremental Build of configuration Debug for project MB3_software ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 
+07:48:49 **** Auto Build of configuration Debug for project MB3_software ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MB3_software_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:9: warning: unused variable 'number_of_words' [-Wunused-variable]
+     int number_of_words = 8;
+         ^
+../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
+  char c;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MB3_software.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MB3_software_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "MB3_software.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MB3_software.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MB3_software.elf  |tee "MB3_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5536	    288	   3152	   8976	   2310	MB3_software.elf
+Finished building: MB3_software.elf.size
+ 

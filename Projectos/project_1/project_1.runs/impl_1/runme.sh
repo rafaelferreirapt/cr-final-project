@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/parallels/Desktop/CR/Projecto/Projectos/project_1/project_1.runs/impl_1'
+HD_PWD='/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -37,7 +37,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log MP3_Design_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source MP3_Design_wrapper.tcl -notrace
 
 

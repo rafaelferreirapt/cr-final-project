@@ -34,45 +34,9 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>btnC</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>sw</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>15</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
           <spirit:name>clk</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>an</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-            <spirit:vector>
-              <spirit:left>7</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>seg</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-            <spirit:vector>
-              <spirit:left>6</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
       </spirit:ports>
@@ -90,40 +54,12 @@
         <spirit:componentRef spirit:library="BlockDiagram/MP3_Design_imp" spirit:name="microblaze_0_local_memory" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>BinToBCD16_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="BinToBCD16" spirit:vendor="ua.pt" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_BinToBCD16_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconcat_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconcat_0_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconstant_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconstant_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>axi_gpio_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_gpio" spirit:vendor="xilinx.com" spirit:version="2.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_axi_gpio_0_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_GPIO_WIDTH">32</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_GPIO2_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_GPIO2_WIDTH">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_IS_DUAL">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_DOUT_DEFAULT">0x00000000</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_ALL_INPUTS_2">1</spirit:configurableElementValue>
@@ -180,96 +116,10 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>xlconcat_1</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconcat_1_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">16</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">16</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>smart_mux_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="smart_mux" spirit:vendor="user.org" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_smart_mux_0_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="addres_bits">1</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconcat_2</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconcat_2_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconstant_1</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconstant_1_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">16</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CONST_VAL">0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>dist_mem_gen_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_dist_mem_gen_0_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="depth">32</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="memory_type">simple_dual_port_ram</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlslice_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlslice_0_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_TO">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">4</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlslice_2</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlslice_1_2</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">16</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_TO">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">15</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">32</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconstant_2</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconstant_2_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>xlconstant_3</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_xlconstant_3_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">16</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>ramANDrom_wrapper_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="ramANDrom_wrapper" spirit:vendor="user.org" spirit:version="1.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_ramANDrom_wrapper_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>DC32_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="DC32" spirit:vendor="ua.pt" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_DC32_0_1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -319,14 +169,11 @@
       <spirit:adHocConnection>
         <spirit:name>microblaze_0_Clk</spirit:name>
         <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="clk_out1"/>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="s_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="mdm_1" spirit:portRef="S_AXI_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0" spirit:portRef="Clk"/>
         <spirit:internalPortReference spirit:componentRef="rst_clk_wiz_1_100M" spirit:portRef="slowest_sync_clk"/>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="clk"/>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_local_memory" spirit:portRef="LMB_Clk"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_periph" spirit:portRef="ACLK"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_periph" spirit:portRef="S00_ACLK"/>
@@ -379,102 +226,9 @@
         <spirit:internalPortReference spirit:componentRef="rst_clk_wiz_1_100M" spirit:portRef="ext_reset_in"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>xlconstant_0_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="request"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconcat_1_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="smart_mux_0" spirit:portRef="port_in"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>btnL_1</spirit:name>
         <spirit:externalPortReference spirit:portRef="btnL"/>
         <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="reset"/>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="reset"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>btnC_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="btnC"/>
-        <spirit:internalPortReference spirit:componentRef="smart_mux_0" spirit:portRef="select_port"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconstant_1_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconstant_1" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In1"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>BinToBCD16_0_BCD0</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="BCD0"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In0"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>BinToBCD16_0_BCD1</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="BCD1"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In1"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>BinToBCD16_0_BCD2</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="BCD2"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In2"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>BinToBCD16_0_BCD3</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="BCD3"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In3"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlslice_0_Dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Dout"/>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="dpra"/>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="a"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>axi_gpio_0_gpio_io_o</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="gpio_io_o"/>
-        <spirit:internalPortReference spirit:componentRef="xlslice_2" spirit:portRef="Din"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconcat_0_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In1"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconstant_2_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconstant_2" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="we"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlslice_2_Dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlslice_2" spirit:portRef="Dout"/>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="d"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconstant_3_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconstant_3" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="gpio2_io_i"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>sw_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="sw"/>
-        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Din"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>smart_mux_0_port_out</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="smart_mux_0" spirit:portRef="port_out"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In0"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>dist_mem_gen_0_dpo</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="dpo"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In0"/>
-        <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="binary"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>ramANDrom_wrapper_0_m_out</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_out"/>
-        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_in"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>clk_1</spirit:name>
@@ -482,19 +236,14 @@
         <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="clk_in1"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>DC32_0_select_display</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="select_display"/>
-        <spirit:externalPortReference spirit:portRef="an"/>
+        <spirit:name>ramANDrom_wrapper_0_m_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_out"/>
+        <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="gpio2_io_i"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>DC32_0_segments</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="segments"/>
-        <spirit:externalPortReference spirit:portRef="seg"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconcat_2_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="data_in"/>
+        <spirit:name>axi_gpio_0_gpio_io_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="gpio_io_o"/>
+        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_in"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
   </spirit:design>

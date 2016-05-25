@@ -9,6 +9,46 @@ void outbyte(char c);
 XGpio GPIO_0;
 XGpio_Config GPIO_0_conf;
 
+
+void printCharArrayU32(u32 n, int base)
+{
+	char number[32] = {0};
+	int number_i = 31;
+
+	while(n!=0){
+		if(n / base == 0 && n % base == 0){
+			break;
+		}
+
+		int res = n % base;
+
+		if(res >= 0 && res <= 9){
+			number[number_i] = (res + '0');
+		}else if(res > 9 && res <= 15){
+			number[number_i] = (res - 10 + 'A');
+		}
+
+		number_i = number_i - 1;
+		n = n / base;
+	}
+
+	int j = number_i+1;
+
+	// print with outbyte
+
+	if(base==16){
+		outbyte('0');
+		outbyte('x');
+	}
+
+	for(; j<32; j++){
+		outbyte(number[j]);
+	}
+
+	print("\n");
+}
+
+
 int main()
 {
 	char c;
@@ -23,33 +63,31 @@ int main()
 
     init_platform();
 
-    u32 output;
+    print("\nInit\n\r");
 
-    do
-    {
-    	print("Decimal number (x for exit): ");
-		c = inbyte();
-		inbyte();
+    u32 output = 0x0;
+    u32 input;
 
-		if(c<='9' && c>='0'){
-			output = 0x00000000 + (c-'0');
-			print("c<='9' && c>='0'\n");
-		}else if(c<='f' && c>='a'){
-			output = 0x00000010 + (c-'a');
-			print("c<='f' && c>='a'\n");
-		}else if(c<='F' && c>='A'){
-			output = 0x00000010 + (c-'A');
-			print("c<='F' && c>='A'\n");
-		}else{
-		    print("\nThe program has been terminated\n\r");
-		    cleanup_platform();
+    // to make the foor loop to unroll ROM
+    int number_of_words = 8;
 
-		    return 0;
-			break;
-		}
+    // make output
+    // ROM_ADDR => 22 down to 20, shift 19 left
+    u32 rom_addr = 3;
+    rom_addr = rom_addr << 19;
+    output = output | rom_addr;
 
-		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-    } while (c != 'x');
+	printCharArrayU32(output, 2);
+
+	XGpio_DiscreteWrite(&GPIO_0, 1, output);
+
+	u32 teste = 3;
+
+	printCharArrayU32(teste, 2);
+
+	input = XGpio_DiscreteRead(&GPIO_0, 2);
+
+	printCharArrayU32(input, 10);
 
     print("\nThe program has been terminated\n\r");
     cleanup_platform();

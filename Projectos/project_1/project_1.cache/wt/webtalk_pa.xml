@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed May 25 02:23:42 2016">
+<application name="pa" timeStamp="Wed May 25 16:01:21 2016">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="5cde0349157b44399c38fe62fc7f71c6" type="ProjectID"/>
-<property name="ProjectIteration" value="21" type="ProjectIteration"/>
+<property name="ProjectIteration" value="24" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -17,64 +17,51 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="CloseProject" value="0" type="JavaHandler"/>
-<property name="CoreView" value="4" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
 <property name="CreateTopHDL" value="14" type="JavaHandler"/>
-<property name="CustomizeRSBBlock" value="34" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="36" type="JavaHandler"/>
 <property name="EditCopy" value="2" type="JavaHandler"/>
-<property name="EditDelete" value="38" type="JavaHandler"/>
+<property name="EditDelete" value="49" type="JavaHandler"/>
 <property name="EditPaste" value="2" type="JavaHandler"/>
 <property name="EditUndo" value="7" type="JavaHandler"/>
-<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="FileExit" value="5" type="JavaHandler"/>
 <property name="GenerateOutputForBDFile" value="1" type="JavaHandler"/>
-<property name="ManageCompositeTargets" value="8" type="JavaHandler"/>
-<property name="NewExportHardware" value="9" type="JavaHandler"/>
-<property name="NewLaunchHardware" value="26" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="9" type="JavaHandler"/>
+<property name="NewExportHardware" value="12" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="38" type="JavaHandler"/>
 <property name="OpenBlockDesign" value="6" type="JavaHandler"/>
 <property name="OpenProject" value="3" type="JavaHandler"/>
 <property name="RegenerateRSBLayout" value="6" type="JavaHandler"/>
 <property name="ReportIPStatus" value="3" type="JavaHandler"/>
-<property name="RunBitgen" value="14" type="JavaHandler"/>
+<property name="RunBitgen" value="17" type="JavaHandler"/>
 <property name="RunImplementation" value="2" type="JavaHandler"/>
 <property name="RunSynthesis" value="2" type="JavaHandler"/>
 <property name="SaveProjectAs" value="3" type="JavaHandler"/>
-<property name="SaveRSBDesign" value="14" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="16" type="JavaHandler"/>
 <property name="ShowView" value="3" type="JavaHandler"/>
+<property name="ToggleSelectAreaMode" value="1" type="JavaHandler"/>
+<property name="ToolsTemplates" value="1" type="JavaHandler"/>
 <property name="UpdateSourceFiles" value="1" type="JavaHandler"/>
 <property name="UpgradeIP" value="2" type="JavaHandler"/>
-<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="2" type="JavaHandler"/>
 <property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
-<property name="ZoomIn" value="84" type="JavaHandler"/>
+<property name="ZoomIn" value="91" type="JavaHandler"/>
 <property name="ZoomOut" value="14" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceItoN.LogMonitor_MONITOR, 205, 72" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 280, 136" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 287, 130" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 287, 130, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 308, 130" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 308, 130, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 313, 114" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 313, 114, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 322, 56" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 322, 56, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 326, 121" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 338, 130" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 341, 56" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 349, 67" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 349, 67, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 364, 75" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 364, 75, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 372, 77" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 372, 77, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 404, 83" value="46" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 405, 83" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, ROM_Reader1_v1_0 ;  ; Production ; Included ; user.org:user:ROM_Reader1:1.0, 20, ROM_Reader1_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, UserIP ;  ;  ;  ; , 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, ramANDrom_wrapper_v1_0 ;  ; Production ; Included ; user.org:user:ramANDrom_wrapper:1.0, 18, ramANDrom_wrapper_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Language Templates], 3, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
 <property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="24" type="GuiMode"/>
+<property name="GuiMode" value="33" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="22" type="TclMode"/>
+<property name="TclMode" value="29" type="TclMode"/>
 </item>
 </section>
 </application>

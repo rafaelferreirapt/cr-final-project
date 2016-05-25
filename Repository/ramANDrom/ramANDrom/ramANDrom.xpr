@@ -10,12 +10,12 @@
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
-    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="CompiledLibDirModelSim" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.cache/compile_simlib/activehdl"/>
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -51,18 +51,18 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_0/ramANDrom_xlslice_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hdl/ramANDrom.v"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_3/ramANDrom_xlslice_0_3.xci"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_2/ramANDrom_xlslice_0_2.xci"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_1/ramANDrom_xlslice_0_1.xci"/>
         <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_blk_mem_gen_0_1/ramANDrom_blk_mem_gen_0_1.xci"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlconcat_0_0/ramANDrom_xlconcat_0_0.xci"/>
         <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_blk_mem_gen_0_0/ramANDrom_blk_mem_gen_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ramANDrom_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hw_handoff/ramANDrom.hwh"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlconcat_0_0/ramANDrom_xlconcat_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_0/ramANDrom_xlslice_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_1/ramANDrom_xlslice_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_2/ramANDrom_xlslice_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ip/ramANDrom_xlslice_0_3/ramANDrom_xlslice_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hdl/ramANDrom.v"/>
         <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hdl/ramANDrom.hwdef"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="ramANDrom_ooc.xdc"/>
         <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hw_handoff/ramANDrom_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="ramANDrom.bd" FileRelPathName="hw_handoff/ramANDrom.hwh"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v">
         <FileInfo>

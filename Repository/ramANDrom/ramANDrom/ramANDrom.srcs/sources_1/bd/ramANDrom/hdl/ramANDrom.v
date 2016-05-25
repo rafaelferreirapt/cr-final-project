@@ -1,7 +1,7 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
-//Date        : Tue May 24 23:57:46 2016
+//Date        : Wed May 25 15:53:17 2016
 //Host        : ubuntu running 64-bit Ubuntu 14.04.1 LTS
 //Command     : generate_target ramANDrom.bd
 //Design      : ramANDrom
@@ -42,8 +42,8 @@ module ramANDrom
         .douta(blk_mem_gen_1_douta),
         .wea(xlslice_2_Dout));
   ramANDrom_xlconcat_0_0 xlconcat_0
-       (.In0(blk_mem_gen_1_douta),
-        .In1(blk_mem_gen_0_douta),
+       (.In0(blk_mem_gen_0_douta),
+        .In1(blk_mem_gen_1_douta),
         .dout(xlconcat_0_dout));
   ramANDrom_xlslice_0_0 xlslice_0
        (.Din(m_in_1),

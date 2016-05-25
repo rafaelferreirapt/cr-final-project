@@ -187,6 +187,7 @@ CONFIG.use_bram_block {Stand_Alone} \
 CONFIG.Byte_Size {9} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Enable_A {Always_Enabled} \
+CONFIG.Fill_Remaining_Memory_Locations {true} \
 CONFIG.Read_Width_A {16} \
 CONFIG.Read_Width_B {16} \
 CONFIG.Register_PortA_Output_of_Memory_Primitives {false} \
@@ -238,8 +239,8 @@ CONFIG.DOUT_WIDTH {3} \
  ] $xlslice_3
 
   # Create port connections
-  connect_bd_net -net blk_mem_gen_0_douta [get_bd_pins blk_mem_gen_0/douta] [get_bd_pins xlconcat_0/In1]
-  connect_bd_net -net blk_mem_gen_1_douta [get_bd_pins blk_mem_gen_1/douta] [get_bd_pins xlconcat_0/In0]
+  connect_bd_net -net blk_mem_gen_0_douta [get_bd_pins blk_mem_gen_0/douta] [get_bd_pins xlconcat_0/In0]
+  connect_bd_net -net blk_mem_gen_1_douta [get_bd_pins blk_mem_gen_1/douta] [get_bd_pins xlconcat_0/In1]
   connect_bd_net -net clk_in_1 [get_bd_ports clk] [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins blk_mem_gen_1/clka]
   connect_bd_net -net m_in_1 [get_bd_ports m_in] [get_bd_pins xlslice_0/Din] [get_bd_pins xlslice_1/Din] [get_bd_pins xlslice_2/Din] [get_bd_pins xlslice_3/Din]
   connect_bd_net -net xlconcat_0_dout [get_bd_ports m_out] [get_bd_pins xlconcat_0/dout]
@@ -261,19 +262,19 @@ preplace inst xlslice_0 -pg 1 -lvl 1 -y 320 -defaultsOSRD
 preplace inst xlslice_1 -pg 1 -lvl 1 -y -40 -defaultsOSRD
 preplace inst xlslice_2 -pg 1 -lvl 1 -y 230 -defaultsOSRD
 preplace inst xlslice_3 -pg 1 -lvl 1 -y -130 -defaultsOSRD
-preplace inst xlconcat_0 -pg 1 -lvl 1 -y 130 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -y 0 -defaultsOSRD
-preplace inst blk_mem_gen_1 -pg 1 -lvl 2 -y 290 -defaultsOSRD
-preplace netloc xlslice_3_Dout 1 1 1 220
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -y 10 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 2 -y 320 -defaultsOSRD
+preplace netloc blk_mem_gen_1_douta 1 0 2 -10 370 190
+preplace netloc xlslice_3_Dout 1 1 1 230
 preplace netloc xlslice_1_Dout 1 1 1 210
-preplace netloc blk_mem_gen_1_douta 1 0 2 0 370 NJ
 preplace netloc m_in_1 1 0 1 -20
 preplace netloc clk_in_1 1 0 2 NJ 10 NJ
-preplace netloc xlconcat_0_dout 1 1 2 NJ 120 N
+preplace netloc xlconcat_0_dout 1 1 2 NJ 100 460
 preplace netloc xlslice_2_Dout 1 1 1 200
-preplace netloc blk_mem_gen_0_douta 1 0 2 -10 20 NJ
-preplace netloc xlslice_0_Dout 1 1 1 210
-levelinfo -pg 1 -50 100 330 460 -top -180 -bot 390
+preplace netloc blk_mem_gen_0_douta 1 0 2 -10 20 220
+preplace netloc xlslice_0_Dout 1 1 1 190
+levelinfo -pg 1 -50 90 350 480 -top -180 -bot 420
 ",
 }
 

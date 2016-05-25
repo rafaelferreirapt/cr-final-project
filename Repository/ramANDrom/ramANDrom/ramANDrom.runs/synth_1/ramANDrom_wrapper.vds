@@ -2,8 +2,8 @@
 # Vivado v2016.1 (64-bit)
 # SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
 # IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-# Start of session at: Tue May 24 23:57:49 2016
-# Process ID: 27743
+# Start of session at: Wed May 25 15:53:22 2016
+# Process ID: 13685
 # Current directory: /media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.runs/synth_1
 # Command line: vivado -log ramANDrom_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source ramANDrom_wrapper.tcl
 # Log file: /media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.runs/synth_1/ramANDrom_wrapper.vds
@@ -19,9 +19,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 27793 
+INFO: Helper process launched with PID 13834 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.895 ; gain = 135.082 ; free physical = 4603 ; free virtual = 6863
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1025.895 ; gain = 135.082 ; free physical = 4081 ; free virtual = 6545
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_wrapper' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v:12]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v:13]
@@ -663,7 +663,7 @@ INFO: [Synth 8-638] synthesizing module 'ramANDrom_blk_mem_gen_0_1' [/media/psf/
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
 	Parameter C_INIT_FILE bound to: NONE - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
 	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
@@ -737,7 +737,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
 	Parameter C_INIT_FILE bound to: NONE - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
 	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
@@ -810,7 +810,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
 	Parameter C_INIT_FILE bound to: NONE - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
@@ -877,7 +877,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_PRIM_TYPE_i bound to: 1 - type: integer 
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
@@ -990,7 +990,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_USED_WIDTH bound to: 320000'b0000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... (message truncated)
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
@@ -1060,7 +1060,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_USED_WIDTH bound to: 16 - type: integer 
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
@@ -1102,8 +1102,6 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
-	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
-	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
 	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
 	Parameter C_USER_WIDTH bound to: 16 - type: integer 
@@ -1115,7 +1113,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_USED_WIDTH bound to: 16 - type: integer 
 	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_USE_BYTE_WE bound to: 0 - type: integer 
 	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
@@ -1241,7 +1239,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
 	Parameter RAM_MODE bound to: TDP - type: string 
-	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 18 - type: integer 
 	Parameter READ_WIDTH_B bound to: 18 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
@@ -1264,7 +1262,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/media/psf/Home/De
 	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_USE_ECC bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_blk_mem_gen_0_1' (11#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_blk_mem_gen_0_1/synth/ramANDrom_blk_mem_gen_0_1.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_blk_mem_gen_0_1' (10#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_blk_mem_gen_0_1/synth/ramANDrom_blk_mem_gen_0_1.vhd:66]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_xlconcat_0_0' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlconcat_0_0/synth/ramANDrom_xlconcat_0_0.v:58]
 INFO: [Synth 8-638] synthesizing module 'xlconcat' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlconcat_v2_1/xlconcat.v:14]
 	Parameter IN0_WIDTH bound to: 16 - type: integer 
@@ -1301,38 +1299,38 @@ INFO: [Synth 8-638] synthesizing module 'xlconcat' [/media/psf/Home/Development/
 	Parameter IN31_WIDTH bound to: 1 - type: integer 
 	Parameter dout_width bound to: 32 - type: integer 
 	Parameter NUM_PORTS bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'xlconcat' (12#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlconcat_v2_1/xlconcat.v:14]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlconcat_0_0' (13#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlconcat_0_0/synth/ramANDrom_xlconcat_0_0.v:58]
+INFO: [Synth 8-256] done synthesizing module 'xlconcat' (11#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlconcat_v2_1/xlconcat.v:14]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlconcat_0_0' (12#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlconcat_0_0/synth/ramANDrom_xlconcat_0_0.v:58]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_xlslice_0_0' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_0/synth/ramANDrom_xlslice_0_0.v:57]
 INFO: [Synth 8-638] synthesizing module 'xlslice' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
 	Parameter DIN_WIDTH bound to: 32 - type: integer 
 	Parameter DIN_FROM bound to: 18 - type: integer 
 	Parameter DIN_TO bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'xlslice' (14#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_0' (15#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_0/synth/ramANDrom_xlslice_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'xlslice' (13#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_0' (14#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_0/synth/ramANDrom_xlslice_0_0.v:57]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_xlslice_0_1' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_1/synth/ramANDrom_xlslice_0_1.v:57]
 INFO: [Synth 8-638] synthesizing module 'xlslice__parameterized0' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
 	Parameter DIN_WIDTH bound to: 32 - type: integer 
 	Parameter DIN_FROM bound to: 2 - type: integer 
 	Parameter DIN_TO bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized0' (15#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_1' (16#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_1/synth/ramANDrom_xlslice_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized0' (14#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_1' (15#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_1/synth/ramANDrom_xlslice_0_1.v:57]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_xlslice_0_2' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_2/synth/ramANDrom_xlslice_0_2.v:57]
 INFO: [Synth 8-638] synthesizing module 'xlslice__parameterized1' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
 	Parameter DIN_WIDTH bound to: 32 - type: integer 
 	Parameter DIN_FROM bound to: 19 - type: integer 
 	Parameter DIN_TO bound to: 19 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized1' (16#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_2' (17#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_2/synth/ramANDrom_xlslice_0_2.v:57]
+INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized1' (15#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_2' (16#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_2/synth/ramANDrom_xlslice_0_2.v:57]
 INFO: [Synth 8-638] synthesizing module 'ramANDrom_xlslice_0_3' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/synth/ramANDrom_xlslice_0_3.v:57]
 INFO: [Synth 8-638] synthesizing module 'xlslice__parameterized2' [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
 	Parameter DIN_WIDTH bound to: 32 - type: integer 
 	Parameter DIN_FROM bound to: 22 - type: integer 
 	Parameter DIN_TO bound to: 20 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized2' (17#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_3' (18#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/synth/ramANDrom_xlslice_0_3.v:57]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom' (19#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v:13]
-INFO: [Synth 8-256] done synthesizing module 'ramANDrom_wrapper' (20#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v:12]
+INFO: [Synth 8-256] done synthesizing module 'xlslice__parameterized2' (16#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ipshared/xilinx.com/xlslice_v1_0/xlslice.v:12]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_xlslice_0_3' (17#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/synth/ramANDrom_xlslice_0_3.v:57]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom' (18#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v:13]
+INFO: [Synth 8-256] done synthesizing module 'ramANDrom_wrapper' (19#1) [/media/psf/Home/Development/ect_ua/cr-final-project/Repository/ramANDrom/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v:12]
 WARNING: [Synth 8-3331] design xlslice__parameterized2 has unconnected port Din[31]
 WARNING: [Synth 8-3331] design xlslice__parameterized2 has unconnected port Din[30]
 WARNING: [Synth 8-3331] design xlslice__parameterized2 has unconnected port Din[29]
@@ -1435,7 +1433,7 @@ WARNING: [Synth 8-3331] design xlslice has unconnected port Din[22]
 WARNING: [Synth 8-3331] design xlslice has unconnected port Din[21]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:06 ; elapsed = 00:02:10 . Memory (MB): peak = 1235.008 ; gain = 344.195 ; free physical = 4393 ; free virtual = 6653
+Finished RTL Elaboration : Time (s): cpu = 00:02:21 ; elapsed = 00:02:28 . Memory (MB): peak = 1235.008 ; gain = 344.195 ; free physical = 3870 ; free virtual = 6336
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1445,7 +1443,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:06 ; elapsed = 00:02:10 . Memory (MB): peak = 1235.008 ; gain = 344.195 ; free physical = 4394 ; free virtual = 6654
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1235.008 ; gain = 344.195 ; free physical = 3869 ; free virtual = 6335
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1461,16 +1459,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1302.020 ; gain = 0.004 ; free physical = 4360 ; free virtual = 6620
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1302.020 ; gain = 0.004 ; free physical = 3818 ; free virtual = 6304
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:02:20 ; elapsed = 00:02:24 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4359 ; free virtual = 6619
+Finished Constraint Validation : Time (s): cpu = 00:02:36 ; elapsed = 00:02:44 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3816 ; free virtual = 6302
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:20 ; elapsed = 00:02:24 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4359 ; free virtual = 6619
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:36 ; elapsed = 00:02:44 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3816 ; free virtual = 6302
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1484,10 +1482,10 @@ Applied set_property DONT_TOUCH = true for ramANDrom_i/xlslice_1. (constraint fi
 Applied set_property DONT_TOUCH = true for ramANDrom_i/xlslice_2. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for ramANDrom_i/xlslice_3. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:20 ; elapsed = 00:02:24 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4359 ; free virtual = 6619
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:36 ; elapsed = 00:02:44 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3816 ; free virtual = 6302
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:36 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1518,14 +1516,14 @@ BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:37 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:37 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Finished Parallel Reinference  : Time (s): cpu = 00:02:37 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1536,9 +1534,9 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Finished Area Optimization : Time (s): cpu = 00:02:37 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 4358 ; free virtual = 6618
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:37 ; elapsed = 00:02:45 . Memory (MB): peak = 1302.020 ; gain = 411.207 ; free physical = 3814 ; free virtual = 6301
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1552,10 +1550,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1328.016 ; gain = 437.203 ; free physical = 4330 ; free virtual = 6590
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1328.020 ; gain = 437.207 ; free physical = 3780 ; free virtual = 6274
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1328.016 ; gain = 437.203 ; free physical = 4330 ; free virtual = 6590
+Finished Timing Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1328.020 ; gain = 437.207 ; free physical = 3780 ; free virtual = 6274
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1567,16 +1565,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4320 ; free virtual = 6580
+Finished Technology Mapping : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4320 ; free virtual = 6580
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4320 ; free virtual = 6580
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -1593,7 +1591,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished IO Insertion : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1606,7 +1604,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1618,25 +1616,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:49 ; elapsed = 00:02:58 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3772 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:50 ; elapsed = 00:02:59 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3771 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:50 ; elapsed = 00:02:59 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3771 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1660,37 +1658,37 @@ Report Cell Usage:
 +------+-----------+------+
 
 Report Instance Areas: 
-+------+-------------------------------------------------+-----------------------------------------+------+
-|      |Instance                                         |Module                                   |Cells |
-+------+-------------------------------------------------+-----------------------------------------+------+
-|1     |top                                              |                                         |    68|
-|2     |  ramANDrom_i                                    |ramANDrom                                |     2|
-|3     |    blk_mem_gen_0                                |ramANDrom_blk_mem_gen_0_0                |     1|
-|4     |      U0                                         |blk_mem_gen_v8_3_2                       |     1|
-|5     |        inst_blk_mem_gen                         |blk_mem_gen_v8_3_2_synth                 |     1|
-|6     |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top                          |     1|
-|7     |            \valid.cstr                          |blk_mem_gen_generic_cstr                 |     1|
-|8     |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width                   |     1|
-|9     |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init            |     1|
-|10    |    blk_mem_gen_1                                |ramANDrom_blk_mem_gen_0_1                |     1|
-|11    |      U0                                         |blk_mem_gen_v8_3_2__parameterized1       |     1|
-|12    |        inst_blk_mem_gen                         |blk_mem_gen_v8_3_2_synth__parameterized0 |     1|
-|13    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized0          |     1|
-|14    |            \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized0 |     1|
-|15    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized0   |     1|
-|16    |                \prim_noinit.ram                 |blk_mem_gen_prim_wrapper                 |     1|
-|17    |    xlconcat_0                                   |ramANDrom_xlconcat_0_0                   |     0|
-|18    |    xlslice_0                                    |ramANDrom_xlslice_0_0                    |     0|
-|19    |    xlslice_1                                    |ramANDrom_xlslice_0_1                    |     0|
-|20    |    xlslice_2                                    |ramANDrom_xlslice_0_2                    |     0|
-|21    |    xlslice_3                                    |ramANDrom_xlslice_0_3                    |     0|
-+------+-------------------------------------------------+-----------------------------------------+------+
++------+-------------------------------------------------+----------------------------------------------+------+
+|      |Instance                                         |Module                                        |Cells |
++------+-------------------------------------------------+----------------------------------------------+------+
+|1     |top                                              |                                              |    68|
+|2     |  ramANDrom_i                                    |ramANDrom                                     |     2|
+|3     |    blk_mem_gen_0                                |ramANDrom_blk_mem_gen_0_0                     |     1|
+|4     |      U0                                         |blk_mem_gen_v8_3_2                            |     1|
+|5     |        inst_blk_mem_gen                         |blk_mem_gen_v8_3_2_synth                      |     1|
+|6     |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top                               |     1|
+|7     |            \valid.cstr                          |blk_mem_gen_generic_cstr                      |     1|
+|8     |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width                        |     1|
+|9     |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init                 |     1|
+|10    |    blk_mem_gen_1                                |ramANDrom_blk_mem_gen_0_1                     |     1|
+|11    |      U0                                         |blk_mem_gen_v8_3_2__parameterized1            |     1|
+|12    |        inst_blk_mem_gen                         |blk_mem_gen_v8_3_2_synth__parameterized0      |     1|
+|13    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized0               |     1|
+|14    |            \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized0      |     1|
+|15    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized0        |     1|
+|16    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized0 |     1|
+|17    |    xlconcat_0                                   |ramANDrom_xlconcat_0_0                        |     0|
+|18    |    xlslice_0                                    |ramANDrom_xlslice_0_0                         |     0|
+|19    |    xlslice_1                                    |ramANDrom_xlslice_0_1                         |     0|
+|20    |    xlslice_2                                    |ramANDrom_xlslice_0_2                         |     0|
+|21    |    xlslice_3                                    |ramANDrom_xlslice_0_3                         |     0|
++------+-------------------------------------------------+----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 4321 ; free virtual = 6581
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:50 ; elapsed = 00:02:59 . Memory (MB): peak = 1338.031 ; gain = 447.219 ; free physical = 3771 ; free virtual = 6265
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 438 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:23 ; elapsed = 00:02:27 . Memory (MB): peak = 1338.031 ; gain = 293.125 ; free physical = 4321 ; free virtual = 6581
-Synthesis Optimization Complete : Time (s): cpu = 00:02:32 ; elapsed = 00:02:37 . Memory (MB): peak = 1338.039 ; gain = 447.227 ; free physical = 4321 ; free virtual = 6581
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:38 ; elapsed = 00:02:45 . Memory (MB): peak = 1338.031 ; gain = 293.125 ; free physical = 3771 ; free virtual = 6265
+Synthesis Optimization Complete : Time (s): cpu = 00:02:50 ; elapsed = 00:02:59 . Memory (MB): peak = 1338.039 ; gain = 447.227 ; free physical = 3771 ; free virtual = 6265
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1702,6 +1700,6 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 47 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 1344.031 ; gain = 378.719 ; free physical = 4316 ; free virtual = 6576
-report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1352.039 ; gain = 0.000 ; free physical = 4317 ; free virtual = 6577
-INFO: [Common 17-206] Exiting Vivado at Wed May 25 00:00:37 2016...
+synth_design: Time (s): cpu = 00:02:48 ; elapsed = 00:02:56 . Memory (MB): peak = 1344.031 ; gain = 378.719 ; free physical = 3766 ; free virtual = 6261
+report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1352.039 ; gain = 0.000 ; free physical = 3765 ; free virtual = 6261
+INFO: [Common 17-206] Exiting Vivado at Wed May 25 15:56:40 2016...

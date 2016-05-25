@@ -22,6 +22,12 @@
       </spirit:views>
       <spirit:ports>
         <spirit:port>
+          <spirit:name>clk</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
           <spirit:name>m_out</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
@@ -39,12 +45,6 @@
               <spirit:left>31</spirit:left>
               <spirit:right>0</spirit:right>
             </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>clk</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
           </spirit:wire>
         </spirit:port>
       </spirit:ports>
@@ -88,6 +88,7 @@
           <spirit:configurableElementValue spirit:referenceId="Read_Width_A">16</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Enable_A">Always_Enabled</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Register_PortA_Output_of_Memory_Primitives">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Fill_Remaining_Memory_Locations">true</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Use_RSTA_Pin">false</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="use_bram_block">Stand_Alone</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -144,16 +145,6 @@
     </spirit:componentInstances>
     <spirit:adHocConnections>
       <spirit:adHocConnection>
-        <spirit:name>blk_mem_gen_1_douta</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="blk_mem_gen_1" spirit:portRef="douta"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In0"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>blk_mem_gen_0_douta</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="blk_mem_gen_0" spirit:portRef="douta"/>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In1"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>clk_in_1</spirit:name>
         <spirit:externalPortReference spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="blk_mem_gen_0" spirit:portRef="clka"/>
@@ -191,6 +182,16 @@
         <spirit:name>xlslice_3_Dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlslice_3" spirit:portRef="Dout"/>
         <spirit:internalPortReference spirit:componentRef="blk_mem_gen_0" spirit:portRef="addra"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>blk_mem_gen_0_douta</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="blk_mem_gen_0" spirit:portRef="douta"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>blk_mem_gen_1_douta</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="blk_mem_gen_1" spirit:portRef="douta"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In1"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
   </spirit:design>

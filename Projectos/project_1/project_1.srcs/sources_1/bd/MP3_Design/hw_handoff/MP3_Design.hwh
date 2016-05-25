@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 25 02:04:45 2016" VIVADOVERSION="2016.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 25 09:01:54 2016" VIVADOVERSION="2016.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="MP3_Design" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -12,17 +12,6 @@
     <PORT DIR="I" NAME="btnL" SIGIS="undef" SIGNAME="External_Ports_btnL">
       <CONNECTIONS>
         <CONNECTION INSTANCE="clk_wiz_1" PORT="reset"/>
-        <CONNECTION INSTANCE="BinToBCD16_0" PORT="reset"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="btnC" SIGIS="undef" SIGNAME="External_Ports_btnC">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="smart_mux_0" PORT="select_port"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="15" NAME="sw" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="xlslice_0" PORT="Din"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -30,104 +19,11 @@
         <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="7" NAME="an" RIGHT="0" SIGIS="undef" SIGNAME="DC32_0_select_display">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="DC32_0" PORT="select_display"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="6" NAME="seg" RIGHT="0" SIGIS="undef" SIGNAME="DC32_0_segments">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="DC32_0" PORT="segments"/>
-      </CONNECTIONS>
-    </PORT>
   </EXTERNALPORTS>
 
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE FULLNAME="/BinToBCD16_0" HWVERSION="1.0" INSTANCE="BinToBCD16_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="BinToBCD16" VLNV="ua.pt:user:BinToBCD16:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="size_of_data_to_convert" VALUE="16"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_BinToBCD16_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_btnL">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="btnL"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="ready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="15" NAME="binary" RIGHT="0" SIGIS="undef" SIGNAME="dist_mem_gen_0_dpo">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="dpo"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="request" SIGIS="undef" SIGNAME="xlconstant_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="BCD4" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="BCD3" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD3">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_0" PORT="In3"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="BCD2" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_0" PORT="In2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="BCD1" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_0" PORT="In1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="BCD0" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_0" PORT="In0"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/DC32_0" HWVERSION="1.0" INSTANCE="DC32_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="DC32" VLNV="ua.pt:user:DC32:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_DC32_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_2" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="7" NAME="select_display" RIGHT="0" SIGIS="undef" SIGNAME="DC32_0_select_display">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="an"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="6" NAME="segments" RIGHT="0" SIGIS="undef" SIGNAME="DC32_0_segments">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="seg"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
     <MODULE FULLNAME="/axi_gpio_0" HWVERSION="2.0" INSTANCE="axi_gpio_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="axi_gpio" VLNV="xilinx.com:ip:axi_gpio:2.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=axi_gpio;v=v2_0;d=pg144-axi-gpio.pdf"/>
@@ -176,7 +72,7 @@
             <REGISTER NAME="GPIO2_DATA">
               <PROPERTY NAME="DESCRIPTION" VALUE="Channel-2 AXI GPIO Data register"/>
               <PROPERTY NAME="ADDRESS_OFFSET" VALUE="0x8"/>
-              <PROPERTY NAME="SIZE" VALUE="16"/>
+              <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="read-write"/>
               <PROPERTY NAME="RESET_VALUE" VALUE="0x0"/>
               <FIELDS>
@@ -188,14 +84,14 @@
                   <PROPERTY NAME="WRITE_CONSTRAINT" VALUE="0"/>
                   <PROPERTY NAME="READ_ACTION" VALUE=""/>
                   <PROPERTY NAME="BIT_OFFSET" VALUE="0"/>
-                  <PROPERTY NAME="BIT_WIDTH" VALUE="16"/>
+                  <PROPERTY NAME="BIT_WIDTH" VALUE="32"/>
                 </FIELD>
               </FIELDS>
             </REGISTER>
             <REGISTER NAME="GPIO2_TRI">
               <PROPERTY NAME="DESCRIPTION" VALUE="Channel-2 AXI GPIO 3-State Control register"/>
               <PROPERTY NAME="ADDRESS_OFFSET" VALUE="0xC"/>
-              <PROPERTY NAME="SIZE" VALUE="16"/>
+              <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="read-write"/>
               <PROPERTY NAME="RESET_VALUE" VALUE="0x0"/>
               <FIELDS>
@@ -207,7 +103,7 @@
                   <PROPERTY NAME="WRITE_CONSTRAINT" VALUE="0"/>
                   <PROPERTY NAME="READ_ACTION" VALUE=""/>
                   <PROPERTY NAME="BIT_OFFSET" VALUE="0"/>
-                  <PROPERTY NAME="BIT_WIDTH" VALUE="16"/>
+                  <PROPERTY NAME="BIT_WIDTH" VALUE="32"/>
                 </FIELD>
               </FIELDS>
             </REGISTER>
@@ -296,7 +192,7 @@
         <PARAMETER NAME="C_S_AXI_ADDR_WIDTH" VALUE="9"/>
         <PARAMETER NAME="C_S_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_GPIO_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="C_GPIO2_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_GPIO2_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_ALL_INPUTS" VALUE="0"/>
         <PARAMETER NAME="C_ALL_INPUTS_2" VALUE="1"/>
         <PARAMETER NAME="C_ALL_OUTPUTS" VALUE="1"/>
@@ -413,12 +309,12 @@
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="gpio_io_o" RIGHT="0" SIGIS="undef" SIGNAME="axi_gpio_0_gpio_io_o">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xlslice_2" PORT="Din"/>
+            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="m_in"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="gpio2_io_i" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_3_dout">
+        <PORT DIR="I" LEFT="31" NAME="gpio2_io_i" RIGHT="0" SIGIS="undef" SIGNAME="ramANDrom_wrapper_0_m_out">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_3" PORT="dout"/>
+            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="m_out"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1019,14 +915,11 @@
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk_out1" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="clk"/>
             <CONNECTION INSTANCE="axi_gpio_0" PORT="s_axi_aclk"/>
             <CONNECTION INSTANCE="mdm_1" PORT="S_AXI_ACLK"/>
             <CONNECTION INSTANCE="microblaze_0" PORT="Clk"/>
             <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="slowest_sync_clk"/>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="clk"/>
             <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="clk"/>
-            <CONNECTION INSTANCE="DC32_0" PORT="clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_dlmb_bram_if_cntlr" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_dlmb_v10" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_ilmb_bram_if_cntlr" PORT="LMB_Clk"/>
@@ -1043,106 +936,6 @@
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_1_locked">
           <CONNECTIONS>
             <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="dcm_locked"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/dist_mem_gen_0" HWVERSION="8.0" INSTANCE="dist_mem_gen_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dist_mem_gen" VLNV="xilinx.com:ip:dist_mem_gen:8.0">
-      <DOCUMENTS>
-        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=dist_mem_gen;v=v8_0;d=pg063-dist-mem-gen.pdf"/>
-      </DOCUMENTS>
-      <PARAMETERS>
-        <PARAMETER NAME="C_FAMILY" VALUE="artix7"/>
-        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="5"/>
-        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
-        <PARAMETER NAME="C_DEPTH" VALUE="32"/>
-        <PARAMETER NAME="C_HAS_CLK" VALUE="1"/>
-        <PARAMETER NAME="C_HAS_D" VALUE="1"/>
-        <PARAMETER NAME="C_HAS_DPO" VALUE="1"/>
-        <PARAMETER NAME="C_HAS_DPRA" VALUE="1"/>
-        <PARAMETER NAME="C_HAS_I_CE" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QDPO" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QDPO_CE" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QDPO_CLK" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QDPO_RST" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QDPO_SRST" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QSPO" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QSPO_CE" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QSPO_RST" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_QSPO_SRST" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_SPO" VALUE="0"/>
-        <PARAMETER NAME="C_HAS_WE" VALUE="1"/>
-        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
-        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
-        <PARAMETER NAME="C_MEM_TYPE" VALUE="4"/>
-        <PARAMETER NAME="C_PIPELINE_STAGES" VALUE="0"/>
-        <PARAMETER NAME="C_QCE_JOINED" VALUE="0"/>
-        <PARAMETER NAME="C_QUALIFY_WE" VALUE="0"/>
-        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
-        <PARAMETER NAME="C_REG_A_D_INPUTS" VALUE="0"/>
-        <PARAMETER NAME="C_REG_DPRA_INPUT" VALUE="0"/>
-        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="1"/>
-        <PARAMETER NAME="C_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="C_PARSER_TYPE" VALUE="1"/>
-        <PARAMETER NAME="depth" VALUE="32"/>
-        <PARAMETER NAME="data_width" VALUE="16"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_dist_mem_gen_0_0"/>
-        <PARAMETER NAME="memory_type" VALUE="simple_dual_port_ram"/>
-        <PARAMETER NAME="input_options" VALUE="non_registered"/>
-        <PARAMETER NAME="input_clock_enable" VALUE="false"/>
-        <PARAMETER NAME="qualify_we_with_i_ce" VALUE="false"/>
-        <PARAMETER NAME="dual_port_address" VALUE="non_registered"/>
-        <PARAMETER NAME="simple_dual_port_address" VALUE="non_registered"/>
-        <PARAMETER NAME="output_options" VALUE="non_registered"/>
-        <PARAMETER NAME="Pipeline_Stages" VALUE="0"/>
-        <PARAMETER NAME="common_output_clk" VALUE="false"/>
-        <PARAMETER NAME="single_port_output_clock_enable" VALUE="false"/>
-        <PARAMETER NAME="common_output_ce" VALUE="false"/>
-        <PARAMETER NAME="dual_port_output_clock_enable" VALUE="false"/>
-        <PARAMETER NAME="simple_dual_port_output_clock_enable" VALUE="false"/>
-        <PARAMETER NAME="coefficient_file" VALUE="no_coe_file_loaded"/>
-        <PARAMETER NAME="default_data_radix" VALUE="16"/>
-        <PARAMETER NAME="default_data" VALUE="0"/>
-        <PARAMETER NAME="reset_qspo" VALUE="false"/>
-        <PARAMETER NAME="reset_qdpo" VALUE="false"/>
-        <PARAMETER NAME="reset_qsdpo" VALUE="false"/>
-        <PARAMETER NAME="sync_reset_qspo" VALUE="false"/>
-        <PARAMETER NAME="sync_reset_qdpo" VALUE="false"/>
-        <PARAMETER NAME="sync_reset_qsdpo" VALUE="false"/>
-        <PARAMETER NAME="ce_overrides" VALUE="ce_overrides_sync_controls"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="4" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_2_Dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlslice_2" PORT="Dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="4" NAME="dpra" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="clk_wiz_1_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="we" SIGIS="undef" SIGNAME="xlconstant_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_2" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="dpo" RIGHT="0" SIGIS="undef" SIGNAME="dist_mem_gen_0_dpo">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_1" PORT="In0"/>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="binary"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -2469,9 +2262,9 @@
       <MEMORYMAP>
         <MEMRANGE ADDRESSBLOCK="Mem" BASENAME="C_BASEADDR" BASEVALUE="0x00000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x0000FFFF" INSTANCE="microblaze_0_local_memory_dlmb_bram_if_cntlr" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MASTERBUSINTERFACE="DLMB" MEMTYPE="MEMORY" SLAVEBUSINTERFACE="SLMB"/>
         <MEMRANGE ADDRESSBLOCK="Mem" BASENAME="C_BASEADDR" BASEVALUE="0x00000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x0000FFFF" INSTANCE="microblaze_0_local_memory_ilmb_bram_if_cntlr" IS_DATA="FALSE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="ILMB" MEMTYPE="MEMORY" SLAVEBUSINTERFACE="SLMB"/>
-        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x40000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x4000FFFF" INSTANCE="axi_gpio_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MASTERBUSINTERFACE="M_AXI_DC" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
+        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x40000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x4000FFFF" INSTANCE="axi_gpio_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MASTERBUSINTERFACE="M_AXI_DP" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
         <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x40000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x4000FFFF" INSTANCE="axi_gpio_0" IS_DATA="FALSE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_IC" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
-        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x41400000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x41400FFF" INSTANCE="mdm_1" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MASTERBUSINTERFACE="M_AXI_DC" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
+        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x41400000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x41400FFF" INSTANCE="mdm_1" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MASTERBUSINTERFACE="M_AXI_DP" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
         <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x41400000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x41400FFF" INSTANCE="mdm_1" IS_DATA="FALSE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_IC" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI"/>
       </MEMORYMAP>
       <PERIPHERALS>
@@ -4656,14 +4449,14 @@
             <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="31" NAME="m_in" RIGHT="0" SIGIS="undef" SIGNAME="ramANDrom_wrapper_0_m_out">
+        <PORT DIR="I" LEFT="31" NAME="m_in" RIGHT="0" SIGIS="undef" SIGNAME="axi_gpio_0_gpio_io_o">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="m_out"/>
+            <CONNECTION INSTANCE="axi_gpio_0" PORT="gpio_io_o"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="m_out" RIGHT="0" SIGIS="undef" SIGNAME="ramANDrom_wrapper_0_m_out">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="m_in"/>
+            <CONNECTION INSTANCE="axi_gpio_0" PORT="gpio2_io_i"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -4739,337 +4532,6 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="S02_ARESETN"/>
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="M01_ARESETN"/>
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="M02_ARESETN"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/smart_mux_0" HWVERSION="1.0" INSTANCE="smart_mux_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="smart_mux" VLNV="user.org:user:smart_mux:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="data_width" VALUE="16"/>
-        <PARAMETER NAME="addres_bits" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_smart_mux_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="31" NAME="port_in" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_1_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_1" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="port_out" RIGHT="0" SIGIS="undef" SIGNAME="smart_mux_0_port_out">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_2" PORT="In0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="select_port" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btnC">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="btnC"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconcat_0" HWVERSION="2.1" INSTANCE="xlconcat_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconcat" VLNV="xilinx.com:ip:xlconcat:2.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="IN0_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="IN1_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="IN2_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="IN3_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="IN4_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN5_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN6_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN7_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN8_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN9_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN10_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN11_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN12_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN13_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN14_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN15_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN16_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN17_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN18_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN19_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN20_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN21_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN22_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN23_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN24_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN25_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN26_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN27_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN28_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN29_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN30_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN31_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="dout_width" VALUE="16"/>
-        <PARAMETER NAME="NUM_PORTS" VALUE="4"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconcat_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="In0" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="BCD0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="In1" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="BCD1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="In2" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="BCD2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="In3" RIGHT="0" SIGIS="undef" SIGNAME="BinToBCD16_0_BCD3">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="BCD3"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_1" PORT="In1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconcat_1" HWVERSION="2.1" INSTANCE="xlconcat_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconcat" VLNV="xilinx.com:ip:xlconcat:2.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="IN0_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="IN1_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="IN2_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN3_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN4_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN5_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN6_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN7_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN8_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN9_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN10_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN11_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN12_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN13_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN14_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN15_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN16_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN17_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN18_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN19_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN20_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN21_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN22_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN23_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN24_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN25_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN26_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN27_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN28_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN29_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN30_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN31_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="dout_width" VALUE="32"/>
-        <PARAMETER NAME="NUM_PORTS" VALUE="2"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconcat_1_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="In0" RIGHT="0" SIGIS="undef" SIGNAME="dist_mem_gen_0_dpo">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="dpo"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="In1" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_0" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_1_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="smart_mux_0" PORT="port_in"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconcat_2" HWVERSION="2.1" INSTANCE="xlconcat_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconcat" VLNV="xilinx.com:ip:xlconcat:2.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="IN0_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="IN1_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="IN2_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN3_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN4_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN5_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN6_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN7_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN8_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN9_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN10_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN11_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN12_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN13_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN14_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN15_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN16_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN17_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN18_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN19_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN20_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN21_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN22_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN23_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN24_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN25_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN26_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN27_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN28_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN29_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN30_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="IN31_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="dout_width" VALUE="32"/>
-        <PARAMETER NAME="NUM_PORTS" VALUE="2"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconcat_2_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="In0" RIGHT="0" SIGIS="undef" SIGNAME="smart_mux_0_port_out">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="smart_mux_0" PORT="port_out"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="In1" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_1_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="DC32_0" PORT="data_in"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="1"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconstant_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="BinToBCD16_0" PORT="request"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconstant_1" HWVERSION="1.1" INSTANCE="xlconstant_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="0000000000000000"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconstant_1_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="15" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_1_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconcat_2" PORT="In1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconstant_2" HWVERSION="1.1" INSTANCE="xlconstant_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="1"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconstant_2_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="we"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlconstant_3" HWVERSION="1.1" INSTANCE="xlconstant_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="0000000000000001"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlconstant_3_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="15" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_3_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="axi_gpio_0" PORT="gpio2_io_i"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlslice_0" HWVERSION="1.0" INSTANCE="xlslice_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="DIN_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="DIN_FROM" VALUE="4"/>
-        <PARAMETER NAME="DIN_TO" VALUE="0"/>
-        <PARAMETER NAME="DOUT_WIDTH" VALUE="5"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlslice_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="sw"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="4" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="dpra"/>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/xlslice_2" HWVERSION="1.0" INSTANCE="xlslice_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="DIN_FROM" VALUE="15"/>
-        <PARAMETER NAME="DIN_TO" VALUE="0"/>
-        <PARAMETER NAME="DOUT_WIDTH" VALUE="16"/>
-        <PARAMETER NAME="Component_Name" VALUE="MP3_Design_xlslice_1_2"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="axi_gpio_0_gpio_io_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="axi_gpio_0" PORT="gpio_io_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_2_Dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="dist_mem_gen_0" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
