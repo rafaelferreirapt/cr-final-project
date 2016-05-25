@@ -90,6 +90,8 @@ int main()
 		printCharArrayU32(input, 16);
     }
 
+
+
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
 

@@ -74,21 +74,21 @@ int main()
 
     while(1){
     	rom_addr = rom_addr + 1;
-    	if(rom_addr>7){
+    	if(rom_addr>0){
     		break;
     	}
-
-    	// make output
-		// ROM_ADDR => 22 down to 20, shift 19 left
-		u32 rom_addr_tmp = rom_addr << 19;
-		output = output | rom_addr_tmp;
-
-		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-
-		input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
-
-		printCharArrayU32(input, 16);
     }
+
+	// make output
+	// ROM_ADDR => 22 down to 20, shift 19 left
+	u32 rom_addr_tmp = rom_addr << 19;
+	output = output | rom_addr_tmp;
+
+	XGpio_DiscreteWrite(&GPIO_0, 1, output);
+
+	input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
+
+	printCharArrayU32(input, 16);
 
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
