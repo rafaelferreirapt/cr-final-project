@@ -51,8 +51,6 @@ void printCharArrayU32(u32 n, int base)
 
 int main()
 {
-	char c;
-
 	GPIO_0_conf.BaseAddress = XPAR_AXI_GPIO_0_BASEADDR;
 	GPIO_0_conf.DeviceId = XPAR_GPIO_0_DEVICE_ID;
 	GPIO_0_conf.InterruptPresent = XPAR_GPIO_0_INTERRUPT_PRESENT;
@@ -68,28 +66,19 @@ int main()
     u32 output = 0x0;
     u32 input;
 
-    // to make the foor loop to unroll ROM
-    //int number_of_words = 8;//, addr=0;
-    u32 rom_addr = 1;
+	// make output
+	// ROM_ADDR => 22 down to 20, shift 19 left
+    // change addr to 0 (0x1), 1 (0x2), 2 (0x3), 3 (0x4), 4 (0x5), 5 (0x6), 6 (0x7), 7 (0x8)
+    u32 addr = 7;
+	u32 rom_addr_tmp = addr << 20;
+	output = output | rom_addr_tmp;
 
-    while(1){
-    	rom_addr = rom_addr + 1;
-    	if(rom_addr>7){
-    		break;
-    	}
+	XGpio_DiscreteWrite(&GPIO_0, 1, output);
+	printCharArrayU32(output, 16);
 
-    	// make output
-		// ROM_ADDR => 22 down to 20, shift 19 left
-		u32 rom_addr_tmp = rom_addr << 19;
-		output = output | rom_addr_tmp;
+	input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
 
-		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-
-		input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
-
-		printCharArrayU32(input, 16);
-    }
-
+	printCharArrayU32(input, 16);
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
 
