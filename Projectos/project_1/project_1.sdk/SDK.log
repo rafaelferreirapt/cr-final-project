@@ -60,3 +60,44 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 08:57:02 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
 08:57:02 ERROR : Disconnect target failed.
 08:57:19 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:01:18 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+09:01:20 INFO  : XSDB server has started successfully.
+09:01:22 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+09:01:22 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+09:02:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:02:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+09:02:16 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+09:02:25 INFO  : Processor reset is completed for microblaze_0
+09:03:21 INFO  : Processor reset is completed for microblaze_0
+09:03:59 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+09:03:59 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+09:03:59 ERROR : Disconnect target failed.
+09:13:28 INFO  : Processor reset is completed for microblaze_0
+09:14:23 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+09:14:23 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+09:14:23 ERROR : Disconnect target failed.
+09:16:23 INFO  : Processor reset is completed for microblaze_0
+09:17:12 INFO  : Processor reset is completed for microblaze_0
+09:17:42 INFO  : Processor reset is completed for microblaze_0
+09:18:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:18:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+09:18:13 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+09:18:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:18:21 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:819)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:596)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:18:39 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+09:18:39 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+09:18:39 ERROR : Disconnect target failed.
+09:18:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

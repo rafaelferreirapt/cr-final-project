@@ -69,23 +69,27 @@ int main()
     u32 input;
 
     // to make the foor loop to unroll ROM
-    //int number_of_words = 8;//, addr=0;
-    u32 rom_addr = 0;
+    int number_of_words = 8;//, addr=0;
 
-    for(; rom_addr < 8; rom_addr++){
     //for(; addr<number_of_words; addr++){
     	// make output
 		// ROM_ADDR => 22 down to 20, shift 19 left
-		u32 rom_addr_tmp = rom_addr << 19;
-		output = output | rom_addr_tmp;
+		u32 rom_addr = 1;
+		rom_addr = rom_addr << 19;
+		output = output | rom_addr;
+
+		printCharArrayU32(output, 2);
 
 		XGpio_DiscreteWrite(&GPIO_0, 1, output);
+
+		u32 teste = 3;
+
+		printCharArrayU32(teste, 2);
 
 		input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
 
 		printCharArrayU32(input, 16);
     //}
-    }
 
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
