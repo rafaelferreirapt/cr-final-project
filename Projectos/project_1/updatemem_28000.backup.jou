@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# 
+# Start of session at: Wed May 25 16:52:22 2016
+# Process ID: 28000
+# Current directory: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1
+# Command line: updatemem -mode batch -source /opt/Xilinx/SDK/2016.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/MP3_Design_wrapper.mmi -data /opt/Xilinx/SDK/2016.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc MP3_Design_i/microblaze_0 -bit /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/MP3_Design_wrapper.bit -out /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit -force
+# Log file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/updatemem.log
+# Journal file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/updatemem.jou
+#-----------------------------------------------------------
+source /opt/Xilinx/SDK/2016.1/scripts/updatemem/main.tcl -notrace
