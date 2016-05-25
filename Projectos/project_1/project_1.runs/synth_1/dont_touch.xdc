@@ -39,9 +39,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_rst_
 # IP: bd/MP3_Design/ip/MP3_Design_axi_gpio_0_0/MP3_Design_axi_gpio_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_axi_gpio_0_0 || ORIG_REF_NAME==MP3_Design_axi_gpio_0_0}]
 
-# IP: bd/MP3_Design/ip/MP3_Design_DC32_0_0/MP3_Design_DC32_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_DC32_0_0 || ORIG_REF_NAME==MP3_Design_DC32_0_0}]
-
 # IP: bd/MP3_Design/ip/MP3_Design_BinToBCD16_0_0/MP3_Design_BinToBCD16_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_BinToBCD16_0_0 || ORIG_REF_NAME==MP3_Design_BinToBCD16_0_0}]
 
@@ -104,6 +101,9 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ramANDrom_xlsli
 
 # IP: bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/ramANDrom_xlslice_0_3.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ramANDrom_xlslice_0_3 || ORIG_REF_NAME==ramANDrom_xlslice_0_3}]
+
+# IP: bd/MP3_Design/ip/MP3_Design_DC32_0_1/MP3_Design_DC32_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_DC32_0_1 || ORIG_REF_NAME==MP3_Design_DC32_0_1}]
 
 # IP: bd/MP3_Design/ip/MP3_Design_auto_pc_0/MP3_Design_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==MP3_Design_auto_pc_0 || ORIG_REF_NAME==MP3_Design_auto_pc_0}]

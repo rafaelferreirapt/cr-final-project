@@ -250,7 +250,7 @@ proc create_root_design { parentCell } {
   set BinToBCD16_0 [ create_bd_cell -type ip -vlnv ua.pt:user:BinToBCD16:1.0 BinToBCD16_0 ]
 
   # Create instance: DC32_0, and set properties
-  set DC32_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:DC32:1.0 DC32_0 ]
+  set DC32_0 [ create_bd_cell -type ip -vlnv ua.pt:user:DC32:1.0 DC32_0 ]
 
   # Create instance: axi_gpio_0, and set properties
   set axi_gpio_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0 ]
@@ -415,11 +415,11 @@ CONFIG.DOUT_WIDTH {16} \
   connect_bd_net -net btnC_1 [get_bd_ports btnC] [get_bd_pins smart_mux_0/select_port]
   connect_bd_net -net btnCpuReset_1 [get_bd_ports btnCpuReset] [get_bd_pins rst_clk_wiz_1_100M/ext_reset_in]
   connect_bd_net -net btnL_1 [get_bd_ports btnL] [get_bd_pins BinToBCD16_0/reset] [get_bd_pins clk_wiz_1/reset]
-  connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins clk_wiz_1/clk_in1] [get_bd_pins ramANDrom_wrapper_0/clk]
+  connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins clk_wiz_1/clk_in1]
   connect_bd_net -net clk_wiz_1_locked [get_bd_pins clk_wiz_1/locked] [get_bd_pins rst_clk_wiz_1_100M/dcm_locked]
   connect_bd_net -net dist_mem_gen_0_dpo [get_bd_pins BinToBCD16_0/binary] [get_bd_pins dist_mem_gen_0/dpo] [get_bd_pins xlconcat_1/In0]
   connect_bd_net -net mdm_1_debug_sys_rst [get_bd_pins mdm_1/Debug_SYS_Rst] [get_bd_pins rst_clk_wiz_1_100M/mb_debug_sys_rst]
-  connect_bd_net -net microblaze_0_Clk [get_bd_pins BinToBCD16_0/clk] [get_bd_pins DC32_0/clk] [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins dist_mem_gen_0/clk] [get_bd_pins mdm_1/S_AXI_ACLK] [get_bd_pins microblaze_0/Clk] [get_bd_pins microblaze_0_axi_periph/ACLK] [get_bd_pins microblaze_0_axi_periph/M00_ACLK] [get_bd_pins microblaze_0_axi_periph/M01_ACLK] [get_bd_pins microblaze_0_axi_periph/M02_ACLK] [get_bd_pins microblaze_0_axi_periph/S00_ACLK] [get_bd_pins microblaze_0_axi_periph/S01_ACLK] [get_bd_pins microblaze_0_axi_periph/S02_ACLK] [get_bd_pins microblaze_0_local_memory/LMB_Clk] [get_bd_pins rst_clk_wiz_1_100M/slowest_sync_clk]
+  connect_bd_net -net microblaze_0_Clk [get_bd_pins BinToBCD16_0/clk] [get_bd_pins DC32_0/clk] [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins dist_mem_gen_0/clk] [get_bd_pins mdm_1/S_AXI_ACLK] [get_bd_pins microblaze_0/Clk] [get_bd_pins microblaze_0_axi_periph/ACLK] [get_bd_pins microblaze_0_axi_periph/M00_ACLK] [get_bd_pins microblaze_0_axi_periph/M01_ACLK] [get_bd_pins microblaze_0_axi_periph/M02_ACLK] [get_bd_pins microblaze_0_axi_periph/S00_ACLK] [get_bd_pins microblaze_0_axi_periph/S01_ACLK] [get_bd_pins microblaze_0_axi_periph/S02_ACLK] [get_bd_pins microblaze_0_local_memory/LMB_Clk] [get_bd_pins ramANDrom_wrapper_0/clk] [get_bd_pins rst_clk_wiz_1_100M/slowest_sync_clk]
   connect_bd_net -net ramANDrom_wrapper_0_m_out [get_bd_pins ramANDrom_wrapper_0/m_in] [get_bd_pins ramANDrom_wrapper_0/m_out]
   connect_bd_net -net rst_clk_wiz_1_100M_bus_struct_reset [get_bd_pins microblaze_0_local_memory/SYS_Rst] [get_bd_pins rst_clk_wiz_1_100M/bus_struct_reset]
   connect_bd_net -net rst_clk_wiz_1_100M_interconnect_aresetn [get_bd_pins microblaze_0_axi_periph/ARESETN] [get_bd_pins rst_clk_wiz_1_100M/interconnect_aresetn]
@@ -464,10 +464,10 @@ preplace inst dist_mem_gen_0 -pg 1 -lvl 8 -y 430 -defaultsOSRD
 preplace inst xlconstant_1 -pg 1 -lvl 12 -y 440 -defaultsOSRD
 preplace inst xlconstant_2 -pg 1 -lvl 7 -y 470 -defaultsOSRD
 preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 230 -defaultsOSRD
+preplace inst DC32_0 -pg 1 -lvl 14 -y 380 -defaultsOSRD
 preplace inst xlconstant_3 -pg 1 -lvl 6 -y 370 -defaultsOSRD
 preplace inst axi_gpio_0 -pg 1 -lvl 6 -y 250 -defaultsOSRD
 preplace inst xlconcat_0 -pg 1 -lvl 10 -y 290 -defaultsOSRD
-preplace inst DC32_0 -pg 1 -lvl 14 -y 380 -defaultsOSRD
 preplace inst xlconcat_1 -pg 1 -lvl 11 -y 430 -defaultsOSRD
 preplace inst xlconcat_2 -pg 1 -lvl 13 -y 430 -defaultsOSRD
 preplace inst mdm_1 -pg 1 -lvl 3 -y 530 -defaultsOSRD
@@ -486,20 +486,20 @@ preplace netloc BinToBCD16_0_BCD1 1 9 1 2720
 preplace netloc btnCpuReset_1 1 0 2 NJ 630 NJ
 preplace netloc BinToBCD16_0_BCD2 1 9 1 2690
 preplace netloc btnC_1 1 11 1 3100
-preplace netloc microblaze_0_Clk 1 1 13 190 530 570 440 870 430 1380 470 1720 100 NJ 100 2240 240 2460 370 NJ 370 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc microblaze_0_Clk 1 1 13 190 440 570 440 870 430 1380 470 1720 100 NJ 100 2240 240 2460 370 NJ 370 NJ 370 NJ 370 NJ 370 N
 preplace netloc BinToBCD16_0_BCD3 1 9 1 2700
-preplace netloc btnL_1 1 0 9 20 580 N 580 NJ 600 NJ 640 NJ 640 NJ 90 NJ 90 NJ 90 NJ
+preplace netloc btnL_1 1 0 9 10 580 N 580 NJ 600 NJ 640 NJ 640 NJ 90 NJ 90 NJ 90 NJ
 preplace netloc xlconcat_1_dout 1 11 1 3100
 preplace netloc microblaze_0_M_AXI_DC 1 4 1 1340
 preplace netloc microblaze_0_ilmb_1 1 4 1 1350
 preplace netloc ramANDrom_wrapper_0_m_out 1 1 2 200 310 550
 preplace netloc microblaze_0_axi_dp 1 4 1 1330
 preplace netloc dist_mem_gen_0_dpo 1 8 3 2470 420 NJ 420 N
+preplace netloc DC32_0_select_display 1 14 1 N
+preplace netloc clk_1 1 0 1 N
 preplace netloc xlconcat_0_dout 1 10 1 2900
 preplace netloc axi_gpio_0_gpio_io_o 1 6 1 N
-preplace netloc clk_1 1 0 2 NJ 240 NJ
 preplace netloc xlconstant_0_dout 1 8 1 NJ
-preplace netloc DC32_0_select_display 1 14 1 NJ
 preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 3 NJ 150 NJ 150 NJ
 preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 NJ 650 NJ 650 1390
 preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 N
@@ -509,14 +509,14 @@ preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 580 460 NJ 460 1390 
 preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 NJ 630 NJ
 preplace netloc clk_wiz_1_locked 1 1 1 N
 preplace netloc microblaze_0_dlmb_1 1 4 1 1370
+preplace netloc DC32_0_segments 1 14 1 N
 preplace netloc sw_1 1 6 1 2020
-preplace netloc DC32_0_segments 1 14 1 NJ
 preplace netloc microblaze_0_debug 1 3 1 860
 preplace netloc xlconcat_2_dout 1 13 1 3560
 preplace netloc mdm_1_debug_sys_rst 1 1 3 200 430 NJ 430 850
 preplace netloc xlconstant_3_dout 1 6 1 2010
 preplace netloc xlslice_0_Dout 1 7 1 2230
-levelinfo -pg 1 -10 100 380 720 1100 1550 1870 2120 2350 2580 2810 3000 3230 3460 3700 3860 -top -700 -bot 880
+levelinfo -pg 1 -10 100 380 720 1100 1550 1870 2120 2350 2580 2810 3000 3230 3460 3710 3870 -top -700 -bot 880
 ",
 }
 

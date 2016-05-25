@@ -28,32 +28,6 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>an</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-            <spirit:vector>
-              <spirit:left>7</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>seg</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-            <spirit:vector>
-              <spirit:left>6</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>clk</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
           <spirit:name>btnL</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
@@ -75,6 +49,32 @@
             </spirit:vector>
           </spirit:wire>
         </spirit:port>
+        <spirit:port>
+          <spirit:name>clk</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>an</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>7</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>seg</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>6</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
       </spirit:ports>
     </spirit:model>
   </spirit:component>
@@ -88,13 +88,6 @@
       <spirit:componentInstance>
         <spirit:instanceName>microblaze_0_local_memory</spirit:instanceName>
         <spirit:componentRef spirit:library="BlockDiagram/MP3_Design_imp" spirit:name="microblaze_0_local_memory" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>DC32_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="DC32" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_DC32_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>BinToBCD16_0</spirit:instanceName>
@@ -272,6 +265,13 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_ramANDrom_wrapper_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>DC32_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="DC32" spirit:vendor="ua.pt" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">MP3_Design_DC32_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
     </spirit:componentInstances>
     <spirit:interconnections>
       <spirit:interconnection>
@@ -320,12 +320,13 @@
         <spirit:name>microblaze_0_Clk</spirit:name>
         <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="clk_out1"/>
         <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="clk"/>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="axi_gpio_0" spirit:portRef="s_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="mdm_1" spirit:portRef="S_AXI_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0" spirit:portRef="Clk"/>
         <spirit:internalPortReference spirit:componentRef="rst_clk_wiz_1_100M" spirit:portRef="slowest_sync_clk"/>
         <spirit:internalPortReference spirit:componentRef="dist_mem_gen_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_local_memory" spirit:portRef="LMB_Clk"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_periph" spirit:portRef="ACLK"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_periph" spirit:portRef="S00_ACLK"/>
@@ -378,25 +379,9 @@
         <spirit:internalPortReference spirit:componentRef="rst_clk_wiz_1_100M" spirit:portRef="ext_reset_in"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>DC32_0_select_display</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="select_display"/>
-        <spirit:externalPortReference spirit:portRef="an"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>DC32_0_segments</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="segments"/>
-        <spirit:externalPortReference spirit:portRef="seg"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>xlconstant_0_dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="dout"/>
         <spirit:internalPortReference spirit:componentRef="BinToBCD16_0" spirit:portRef="request"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>clk_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="clk"/>
-        <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="clk_in1"/>
-        <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="clk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>xlconcat_1_dout</spirit:name>
@@ -418,11 +403,6 @@
         <spirit:name>xlconstant_1_dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlconstant_1" spirit:portRef="dout"/>
         <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In1"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>xlconcat_2_dout</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="data_in"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>BinToBCD16_0_BCD0</spirit:name>
@@ -495,6 +475,26 @@
         <spirit:name>ramANDrom_wrapper_0_m_out</spirit:name>
         <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_out"/>
         <spirit:internalPortReference spirit:componentRef="ramANDrom_wrapper_0" spirit:portRef="m_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>clk_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="clk_wiz_1" spirit:portRef="clk_in1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>DC32_0_select_display</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="select_display"/>
+        <spirit:externalPortReference spirit:portRef="an"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>DC32_0_segments</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="segments"/>
+        <spirit:externalPortReference spirit:portRef="seg"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_2_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="DC32_0" spirit:portRef="data_in"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
   </spirit:design>

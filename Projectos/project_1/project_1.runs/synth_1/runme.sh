@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/synth_1'
+HD_PWD='/home/parallels/Desktop/CR/Projecto/Projectos/project_1/project_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

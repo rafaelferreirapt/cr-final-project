@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed May 25 00:17:50 2016">
+<application name="pa" timeStamp="Wed May 25 02:23:42 2016">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="5cde0349157b44399c38fe62fc7f71c6" type="ProjectID"/>
-<property name="ProjectIteration" value="17" type="ProjectIteration"/>
+<property name="ProjectIteration" value="21" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -18,50 +18,63 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="CloseProject" value="0" type="JavaHandler"/>
-<property name="CoreView" value="3" type="JavaHandler"/>
-<property name="CreateTopHDL" value="12" type="JavaHandler"/>
+<property name="CoreView" value="4" type="JavaHandler"/>
+<property name="CreateTopHDL" value="14" type="JavaHandler"/>
 <property name="CustomizeRSBBlock" value="34" type="JavaHandler"/>
 <property name="EditCopy" value="2" type="JavaHandler"/>
-<property name="EditDelete" value="33" type="JavaHandler"/>
+<property name="EditDelete" value="38" type="JavaHandler"/>
 <property name="EditPaste" value="2" type="JavaHandler"/>
 <property name="EditUndo" value="7" type="JavaHandler"/>
 <property name="FileExit" value="1" type="JavaHandler"/>
-<property name="ManageCompositeTargets" value="7" type="JavaHandler"/>
+<property name="GenerateOutputForBDFile" value="1" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="8" type="JavaHandler"/>
 <property name="NewExportHardware" value="9" type="JavaHandler"/>
 <property name="NewLaunchHardware" value="26" type="JavaHandler"/>
-<property name="OpenBlockDesign" value="4" type="JavaHandler"/>
-<property name="OpenProject" value="2" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="6" type="JavaHandler"/>
+<property name="OpenProject" value="3" type="JavaHandler"/>
 <property name="RegenerateRSBLayout" value="6" type="JavaHandler"/>
 <property name="ReportIPStatus" value="3" type="JavaHandler"/>
-<property name="RunBitgen" value="12" type="JavaHandler"/>
-<property name="RunSynthesis" value="0" type="JavaHandler"/>
+<property name="RunBitgen" value="14" type="JavaHandler"/>
+<property name="RunImplementation" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="2" type="JavaHandler"/>
 <property name="SaveProjectAs" value="3" type="JavaHandler"/>
-<property name="SaveRSBDesign" value="12" type="JavaHandler"/>
-<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="14" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
 <property name="UpdateSourceFiles" value="1" type="JavaHandler"/>
 <property name="UpgradeIP" value="2" type="JavaHandler"/>
-<property name="ViewTaskProjectManager" value="2" type="JavaHandler"/>
-<property name="ZoomIn" value="79" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
+<property name="ZoomIn" value="84" type="JavaHandler"/>
 <property name="ZoomOut" value="14" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="Nexys4_Master.xdc (2" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Nexys4_Master.xdc], 9, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Nexys4_Master.xdc], 9, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Generate Block Design], 8, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, Discard User Created Messages" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, Message Severity" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, [Common 17-55] 'set_property' expects at least one object. [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_smart_mux_0_1/constrs_1/imports/xdc/Nexys4_Master.xdc:8]. ], 1, true" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, upgrade_ip -vlnv user.org:user:ramANDrom_wrapper:1.0 [get_ips  MP3_Design_ramANDrom_wrapper_0_0] -log ip_upgrade.log. ], 1, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 205, 72" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 280, 136" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 287, 130" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 287, 130, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 308, 130" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 308, 130, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 313, 114" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 313, 114, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 322, 56" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 322, 56, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 326, 121" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 338, 130" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 341, 56" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 349, 67" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 349, 67, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 364, 75" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 364, 75, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 372, 77" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 372, 77, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 404, 83" value="46" type="GuiResourceData"/>
+<property name="PAResourceItoN.LogMonitor_MONITOR, 405, 83" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="28" type="GuiMode"/>
+<property name="GuiMode" value="24" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="25" type="TclMode"/>
+<property name="TclMode" value="22" type="TclMode"/>
 </item>
 </section>
 </application>
