@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_5-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_1-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_3-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_5-target"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_6-target"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_6-bitFile"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_4-bitFile"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_0-device"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_5-bitFile"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_1-device"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_3-device"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_4-device"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_5-device"/>
+	<item value="Auto Detect" key="ForMB_Hello_wrapper_hw_platform_6-device"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_3-bmmFile"/>
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_6-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_1-bitFile"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_3-bitFile"/>
+	<item value="ForMB_Hello_wrapper.bit" key="ForMB_Hello_wrapper_hw_platform_0-bitFile"/>
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_4-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_5-bmmFile"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_1-bmmFile"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_1-target"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_6-bmmFile"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_0-target"/>
+	<item value="bootloop" key="ForMB_Hello_wrapper_hw_platform_0-ForMB_Hello_i/microblaze_0-initElf"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_3-target"/>
+	<item value="Local" key="ForMB_Hello_wrapper_hw_platform_4-target"/>
+	<item value="ForMB_Hello_wrapper_hw_platform_6" key="programfpga.hwplatform"/>
+	<item value="ForMB_Hello_wrapper.mmi" key="ForMB_Hello_wrapper_hw_platform_4-bmmFile"/>
+</section>

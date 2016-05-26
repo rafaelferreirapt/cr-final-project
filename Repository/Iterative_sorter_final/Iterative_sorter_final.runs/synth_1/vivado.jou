@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat May 02 14:21:05 2015
+# Process ID: 5748
+# Log file: I:/SDR_P/10/UserDefinedRepository/Iterative_sorter_final/Iterative_sorter_final.runs/synth_1/IterativeSorterFSM.vds
+# Journal file: I:/SDR_P/10/UserDefinedRepository/Iterative_sorter_final/Iterative_sorter_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IterativeSorterFSM.tcl

@@ -1,0 +1,4 @@
+#Sun May 03 11:42:59 BST 2015
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=status register

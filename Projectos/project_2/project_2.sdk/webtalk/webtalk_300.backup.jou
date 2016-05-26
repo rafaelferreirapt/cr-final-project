@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Sat Apr 25 16:08:17 2015
+# Process ID: 3224
+# Log file: I:/SDR_P/9/MB_aula_teorica_displays_and_buttons/MB_aula_teorica_displays_and_buttons.sdk/webtalk/webtalk.log
+# Journal file: I:/SDR_P/9/MB_aula_teorica_displays_and_buttons/MB_aula_teorica_displays_and_buttons.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

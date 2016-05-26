@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Sat May 02 21:43:14 2015
+# Process ID: 5104
+# Log file: I:/SDR_P/10/RAM_sort_2May/RAM_sort_2May.sdk/webtalk/webtalk.log
+# Journal file: I:/SDR_P/10/RAM_sort_2May/RAM_sort_2May.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

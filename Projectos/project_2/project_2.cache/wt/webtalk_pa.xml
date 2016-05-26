@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu May 26 16:21:05 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="e7c137494dfc4415b4249af8c2d26c9a" type="ProjectID"/>
+<property name="ProjectIteration" value="49" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="2" type="JavaHandler"/>
+<property name="CreateTopHDL" value="3" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="7" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="2" type="JavaHandler"/>
+<property name="NewProject" value="0" type="JavaHandler"/>
+<property name="OpenProject" value="-2" type="JavaHandler"/>
+<property name="ReportIPStatus" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="0" type="JavaHandler"/>
+<property name="RunSynthesis" value="-1" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="2" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
+<property name="ZoomIn" value="5" type="JavaHandler"/>
+<property name="ZoomOut" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="L, 128" value="2" type="GuiResourceData"/>
+<property name="L, 8" value="1" type="GuiResourceData"/>
+<property name="M, 16" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, [All Automation (2 out of 2 selected" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [BD 41-237] Bus Interface property FREQ_HZ does not match between /mdm_1/S_AXI(100000000" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="6" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, Add Repository..." value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REFRESH_ALL_REPOSITORIES, Refresh All Repositories" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REMOVE_FROM_PROJECT, Remove from project" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Alliance Partners ;  ;  ;  ; , 1, Alliance Partners, 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, IterativeSorterFSM_v1_0 ;  ; Production ; Included ; ua.pt:user:IterativeSorterFSM:1.0, 12, IterativeSorterFSM_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, IterativeSorterFSM_v1_0, 6, IterativeSorterFSM_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, IterativeSorter_v1_0, 5, IterativeSorter_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 0, User Repository, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 0, User Repository, 0, false, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 0, User Repository, 0, false, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 0, User Repository, 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 1, User Repository, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 1, User Repository, 0, false, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, User Repository ;  ;  ;  ; , 2, User Repository, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, UserIP ;  ;  ;  ; , 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, UserIP ;  ;  ;  ; , 4" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, iterative_sorter_v1_0, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, iterative_sorter_v1_0, 0, iterative_sorter_v1_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, iterative_sorter_v1_0, 0, iterative_sorter_v1_0, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_CREATE_TOP_HDL, Create HDL Wrapper..." value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXIT, Exit" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, Save Project As..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_IN, System_zoom_in" value="5" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_OUT, System_zoom_out" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ForMB_Hello (ForMB_Hello.bd" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ForMB_Hello_wrapper - STRUCTURE (ForMB_Hello_wrapper.vhd" value="11" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IP Update Log], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Generate Bitstream], 26, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Package IP], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, PAResourceEtoH.HACGCTopPanel_IP_SYMBOL, IP Symbol, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, Upgrade Selected" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, /IterativeSorterFSM_0 ; false ; ForMB_Hello_IterativeSorterFSM_0_0 [IterativeSorterFSM] (IP definition not found" value="8" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, /TopUnr_0 ; false ; ForMB_Hello_TopUnr_0_0 [TopUnr_v1_0] (Up-to-date" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, /microblaze_0 ; true ; ForMB_Hello_microblaze_0_1 [MicroBlaze] (IP minor version change" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusTablePanel_MORE_INFO, Add IP definition to catalog" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusTablePanel_MORE_INFO, IP definition not found" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, Discard User Created Messages" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, Message Severity" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, make_wrapper -files [get_files /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_2/project_2.srcs/sources_1/bd/ForMB_Hello/ForMB_Hello.bd] -top. , [xilinx.com:ip:microblaze:9.6 16] /microblaze_0: Setting D-cache cacheable area high address C_DCACHE_HIGHADDR to 0x3FFFFFFF. The user assigned base address C_DCACHE_BASEADDR is set to 0x20000000.. ], 38, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_PACKAGE_IP, Package IP - ForMB_Hello_wrapper" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, Run Connection Automation" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, Also delete the project local file/directory from disk, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, Also delete the project local file/directory from disk, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, Report IP Status" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_SAVE, Save" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, Generate" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_ADD_IP, Add IP..." value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, Expand/Collapse" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTab_SHOW_IP_STATUS, Show IP Status" value="2" type="GuiResourceData"/>
+<property name="RDIResource.AddRepositoryInfoDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="4" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="11" type="GuiResourceData"/>
+<property name="RDIResource.BaseReportTab_RERUN, Rerun" value="3" type="GuiResourceData"/>
+<property name="RDIResource.HPopupTitle_CLOSE, (String" value="2" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 539, 109" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Delete" value="4" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="37" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="33" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

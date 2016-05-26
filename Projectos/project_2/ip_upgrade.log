@@ -1,0 +1,644 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:02 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_8_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_8_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:02 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_7_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_7_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:02 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_5_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:02 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_4_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_2_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_1_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlslice_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlslice_0_0 (xilinx.com:ip:xlslice:1.0)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconstant_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconstant_3_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconstant_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconstant_2_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_5_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_4_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_3_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:01 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_2_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_1_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_xlconcat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_xlconcat_0_1 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_rst_clk_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_rst_clk_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 6) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_rst_Clk_100M_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_rst_Clk_100M_1 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 6) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_microblaze_0_axi_periph_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_microblaze_0_axi_periph_1 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 5) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_microblaze_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_microblaze_0_1 from xilinx.com:ip:microblaze:9.4 (Rev. 1) to xilinx.com:ip:microblaze:9.6
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_mdm_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_mdm_1_1 (xilinx.com:ip:mdm:3.2) from (Rev. 1) to (Rev. 5)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_lmb_bram_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_lmb_bram_1 from xilinx.com:ip:blk_mem_gen:8.2 (Rev. 3) to xilinx.com:ip:blk_mem_gen:8.3 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_ilmb_v10_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_ilmb_v10_1 (xilinx.com:ip:lmb_v10:3.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_ilmb_bram_if_cntlr_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_ilmb_bram_if_cntlr_1 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 5) to (Rev. 8)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:17:00 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_dlmb_v10_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_dlmb_v10_1 (xilinx.com:ip:lmb_v10:3.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:16:59 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_dlmb_bram_if_cntlr_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_dlmb_bram_if_cntlr_1 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 5) to (Rev. 8)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:16:59 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_blk_mem_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_blk_mem_gen_0_0 from xilinx.com:ip:blk_mem_gen:8.2 (Rev. 3) to xilinx.com:ip:blk_mem_gen:8.3 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:16:59 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 6) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:16:59 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ForMB_Hello_EightDisplayControl32inputs_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ForMB_Hello_EightDisplayControl32inputs_0_0 (ua.pt:user:EightDisplayControl32inputs:1.0) from (Rev. 3) to (Rev. 2)
+
