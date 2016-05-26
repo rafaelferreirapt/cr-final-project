@@ -1,11 +1,13 @@
-11:06:23 **** Incremental Build of configuration Debug for project mem ****
+08:39:13 **** Incremental Build of configuration Debug for project mem ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.088 s in the future
 Invoking: MicroBlaze Print Size
 mb-size mem.elf  |tee "mem.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
+   5576	    288	   3152	   9016	   2338	mem.elf
 Finished building: mem.elf.size
  
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
-11:06:24 Build Finished (took 358ms)
+08:39:14 Build Finished (took 176ms)
 

@@ -278,3 +278,29 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 11:07:14 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
 11:07:14 ERROR : Disconnect target failed.
 11:07:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:27:32 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+08:27:35 INFO  : XSDB server has started successfully.
+08:27:36 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+08:27:36 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+08:30:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:30:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:30:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+08:30:59 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+08:32:49 INFO  : Processor reset is completed for microblaze_0
+08:33:26 INFO  : Processor reset is completed for microblaze_0
+08:34:06 INFO  : Processor reset is completed for microblaze_0
+08:34:37 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+08:34:37 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+08:34:37 ERROR : Disconnect target failed.
+08:35:42 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+08:35:42 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+08:35:42 ERROR : Disconnect target failed.
+08:36:06 INFO  : Processor reset is completed for microblaze_0
+08:36:25 INFO  : Processor reset is completed for microblaze_0
+08:37:15 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+08:37:15 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+08:37:15 ERROR : Disconnect target failed.
+08:39:14 INFO  : Processor reset is completed for microblaze_0
