@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 25 17:49:46 2016
+# Process ID: 15093
+# Current directory: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1
+# Command line: vivado
+# Log file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/vivado.log
+# Journal file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+file mkdir /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk
+file copy -force /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/MP3_Design_wrapper.sysdef /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+file copy -force /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/MP3_Design_wrapper.sysdef /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf
+launch_sdk -workspace /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf

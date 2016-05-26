@@ -9,7 +9,7 @@ void outbyte(char c);
 XGpio GPIO_0;
 XGpio_Config GPIO_0_conf;
 
-
+/*
 void simplePrint(unsigned int input){
 	char *s = "000";
 	s[2] = (char)((input%10)+0x30);
@@ -17,7 +17,7 @@ void simplePrint(unsigned int input){
 	s[0] = (char)(input/100+0x30);
 	print("data = "); print(s);
 }
-
+*/
 void printCharArrayU32(u32 n, int base)
 {
 	char number[32] = {0};
@@ -82,13 +82,13 @@ int main()
 	// ROM_ADDR => 22 down to 20, shift 19 left
     // change addr to 0 (0x1), 1 (0x2), 2 (0x3), 3 (0x4), 4 (0x5), 5 (0x6), 6 (0x7), 7 (0x8)
     for(i=0; i<8; i++){
-    	output = 0x0;
+    	output = 0x00000000;
 		output = output | i << 20;
 
 		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-		printCharArrayU32(output, 16);
+		//printCharArrayU32(output, 16);
 
-		input = XGpio_DiscreteRead(&GPIO_0, 2);
+		input = XGpio_DiscreteRead(&GPIO_0, 2) & 0x0000FFFF;
 
 		rom_array[i] = input;
 
@@ -106,35 +106,32 @@ int main()
     		}
     	}
     }
-    print("OK!\n");
+    //print("OK!\n");
 
     print("\nSend to RAM\n\r");
-    /*
+
     for(i=0; i<8; i++){
-		output = 0x0;
-		output = output | i;
-		output = output | rom_array[i] << 3;
-		output = output | 1 << 19;
+		output = 0x00000000;
+		output = output | i | rom_array[i] << 3 | 1 << 19;
 
 		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-		printCharArrayU32(output, 16);
+		//printCharArrayU32(output, 16);
 
 		printCharArrayU32(rom_array[i], 16);
 	}
-	*/
+
     print("\nRead RAM data\n\r");
-    /*
     for(i=0; i<8; i++){
-		output = 0x0;
+		output = 0x00000000;
 		output = output | i;
 
 		XGpio_DiscreteWrite(&GPIO_0, 1, output);
-		printCharArrayU32(output, 16);
+		//printCharArrayU32(output, 16);
 
-		input = XGpio_DiscreteRead(&GPIO_0, 2);
+		input = XGpio_DiscreteRead(&GPIO_0, 2) >> 16;
 		printCharArrayU32(input, 16);
 	}
-	*/
+
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
 

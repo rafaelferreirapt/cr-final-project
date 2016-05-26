@@ -1,56 +1,28 @@
-09:05:27 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
-09:05:28 INFO  : XSDB server has started successfully.
-09:05:29 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
-09:08:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-09:08:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
-09:08:36 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
-09:08:45 INFO  : Processor reset is completed for microblaze_0
-09:09:03 INFO  : Processor reset is completed for microblaze_0
-09:09:52 INFO  : Time out for XMD transaction is 60000
+10:37:15 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+10:37:16 INFO  : XSDB server has started successfully.
+10:37:16 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+10:39:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+10:39:11 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+10:39:20 INFO  : Processor reset is completed for microblaze_0
+10:39:51 INFO  : Processor reset is completed for microblaze_0
+10:40:18 INFO  : Processor reset is completed for microblaze_0
+10:40:36 INFO  : Time out for XMD transaction is 60000
 If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-09:09:52 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-09:09:52 ERROR : Disconnect target failed.
-09:11:26 INFO  : Processor reset is completed for microblaze_0
-09:12:33 INFO  : Time out for XMD transaction is 60000
+10:40:36 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:40:36 ERROR : Disconnect target failed.
+10:40:50 INFO  : Processor reset is completed for microblaze_0
+10:41:57 INFO  : Processor reset is completed for microblaze_0
+10:42:00 INFO  : Time out for XMD transaction is 60000
 If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-09:12:33 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-09:12:33 ERROR : Disconnect target failed.
-09:18:52 INFO  : Processor reset is completed for microblaze_0
-09:19:58 INFO  : Time out for XMD transaction is 60000
-If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-09:19:58 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-09:19:58 ERROR : Disconnect target failed.
-09:53:18 INFO  : Processor reset is completed for microblaze_0
-09:54:06 INFO  : Processor reset is completed for microblaze_0
-09:54:26 INFO  : Time out for XMD transaction is 60000
-If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-09:54:26 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-09:54:26 ERROR : Disconnect target failed.
-09:54:28 INFO  : Processor reset is completed for microblaze_0
-09:54:59 INFO  : Processor reset is completed for microblaze_0
-09:55:55 INFO  : Time out for XMD transaction is 60000
-If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-09:55:55 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-09:55:55 ERROR : Disconnect target failed.
-10:26:25 INFO  : Processor reset is completed for microblaze_0
-10:26:46 INFO  : Processor reset is completed for microblaze_0
-10:27:03 INFO  : Processor reset is completed for microblaze_0
-10:27:35 INFO  : Processor reset is completed for microblaze_0
-10:27:36 INFO  : Time out for XMD transaction is 60000
-If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-10:27:36 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-10:27:36 ERROR : Disconnect target failed.
-10:27:49 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
-10:28:08 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
-10:28:11 INFO  : XSDB server has started successfully.
-10:28:11 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
-10:28:12 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
-10:28:24 INFO  : Processor reset is completed for microblaze_0
-10:28:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-10:28:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
-10:28:56 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
-10:29:10 INFO  : Processor reset is completed for microblaze_0
-10:29:11 ERROR : Unexpected error while launching program.
+10:42:00 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:42:00 ERROR : Disconnect target failed.
+10:42:14 INFO  : Processor reset is completed for microblaze_0
+10:42:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:42:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+10:42:49 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+10:42:57 INFO  : Processor reset is completed for microblaze_0
+10:42:58 ERROR : Unexpected error while launching program.
 java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
 
 	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
@@ -63,16 +35,123 @@ java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor 
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-10:29:34 INFO  : Time out for XMD transaction is 60000
+10:43:06 INFO  : Time out for XMD transaction is 60000
 If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-10:29:34 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-10:29:34 ERROR : Disconnect target failed.
-10:30:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-10:30:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
-10:30:13 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
-10:30:20 INFO  : Processor reset is completed for microblaze_0
-10:31:44 INFO  : Time out for XMD transaction is 60000
+10:43:06 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:43:06 ERROR : Disconnect target failed.
+10:43:12 INFO  : Processor reset is completed for microblaze_0
+10:43:32 INFO  : Processor reset is completed for microblaze_0
+10:43:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:44:22 INFO  : Time out for XMD transaction is 60000
 If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
-10:31:44 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
-10:31:44 ERROR : Disconnect target failed.
-10:31:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:44:22 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:44:22 ERROR : Disconnect target failed.
+10:44:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:44:23 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+10:44:25 INFO  : XSDB server has started successfully.
+10:44:25 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+10:44:29 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+10:45:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+10:45:31 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+10:45:56 INFO  : Processor reset is completed for microblaze_0
+10:46:14 INFO  : Processor reset is completed for microblaze_0
+10:47:01 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+10:47:04 INFO  : XSDB server has started successfully.
+10:47:04 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+10:47:06 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+10:47:07 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:47:07 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:47:07 ERROR : Disconnect target failed.
+10:47:08 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:48:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:48:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+10:48:40 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+10:48:50 INFO  : Processor reset is completed for microblaze_0
+10:49:58 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:49:58 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:49:58 ERROR : Disconnect target failed.
+10:49:59 INFO  : Processor reset is completed for microblaze_0
+10:51:07 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:51:07 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:51:07 ERROR : Disconnect target failed.
+10:51:08 INFO  : Processor reset is completed for microblaze_0
+10:51:42 INFO  : Processor reset is completed for microblaze_0
+10:52:03 INFO  : Processor reset is completed for microblaze_0
+10:52:27 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:52:27 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:52:27 ERROR : Disconnect target failed.
+10:53:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:53:34 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: No Target with ID 0 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:764)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(CPURunSession.java:27)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:821)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:596)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:53:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:54:08 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+10:54:10 INFO  : XSDB server has started successfully.
+10:54:10 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+10:54:11 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+10:54:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:54:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+10:54:54 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+10:55:10 INFO  : Processor reset is completed for microblaze_0
+10:55:55 INFO  : Processor reset is completed for microblaze_0
+10:56:22 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:56:22 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:56:22 ERROR : Disconnect target failed.
+10:56:47 INFO  : Processor reset is completed for microblaze_0
+10:57:13 INFO  : Processor reset is completed for microblaze_0
+10:57:49 INFO  : Processor reset is completed for microblaze_0
+10:57:56 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:57:56 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:57:56 ERROR : Disconnect target failed.
+11:02:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:03:08 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+11:03:11 INFO  : XSDB server has started successfully.
+11:03:11 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper.hdf.
+11:03:12 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+11:03:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
+11:03:50 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+11:04:24 INFO  : Processor reset is completed for microblaze_0
+11:05:23 INFO  : Processor reset is completed for microblaze_0
+11:05:31 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+11:05:31 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+11:05:31 ERROR : Disconnect target failed.
+11:06:38 INFO  : Processor reset is completed for microblaze_0
+11:07:22 INFO  : Processor reset is completed for microblaze_0
+11:08:17 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+11:08:17 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+11:08:17 ERROR : Disconnect target failed.
+11:08:52 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

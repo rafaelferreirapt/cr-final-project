@@ -1,4 +1,4 @@
-09:06:00 **** Build of project app_bsp ****
+10:37:42 **** Build of project app_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
@@ -27,7 +27,7 @@ Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
 make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
 Compiling uartlite
 Finished building libraries
-09:06:05 **** Auto Build of project app_bsp ****
+10:37:47 **** Auto Build of project app_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
@@ -55,9 +55,9 @@ Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
 make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
 Compiling uartlite
 Finished building libraries
-09:06:11 **** Build of configuration Debug for project app ****
+10:37:53 **** Build of configuration Debug for project app ****
 make all 
-make: Warning: File `objects.mk' has modification time 0.22 s in the future
+make: Warning: File `objects.mk' has modification time 0.018 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
@@ -80,20 +80,10 @@ mb-size app.elf  |tee "app.elf.size"
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-09:06:13 **** Auto Build of configuration Debug for project app ****
+10:37:55 **** Auto Build of configuration Debug for project app ****
 make all 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   2888	    288	   3120	   6296	   1898	app.elf
-Finished building: app.elf.size
- 
-09:07:55 **** Auto Build of configuration Debug for project app ****
+make: Nothing to be done for `all'.
+10:38:18 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -108,18 +98,18 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5576	    288	   3152	   9016	   2338	app.elf
+   6020	    288	   3156	   9464	   24f8	app.elf
 Finished building: app.elf.size
  
-09:08:41 **** Incremental Build of configuration Debug for project app ****
+10:39:15 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5576	    288	   3152	   9016	   2338	app.elf
+   6020	    288	   3156	   9464	   24f8	app.elf
 Finished building: app.elf.size
  
-09:09:01 **** Auto Build of configuration Debug for project app ****
+10:39:38 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -134,88 +124,14 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5504	    288	   3152	   8944	   22f0	app.elf
+   5992	    288	   3152	   9432	   24d8	app.elf
 Finished building: app.elf.size
  
-09:09:02 **** Incremental Build of configuration Debug for project app ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5504	    288	   3152	   8944	   22f0	app.elf
-Finished building: app.elf.size
- 
-09:11:15 **** Auto Build of configuration Debug for project app ****
+10:39:49 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5672	    288	   3152	   9112	   2398	app.elf
-Finished building: app.elf.size
- 
-09:11:20 **** Auto Build of configuration Debug for project app ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5672	    288	   3152	   9112	   2398	app.elf
-Finished building: app.elf.size
- 
-09:11:23 **** Auto Build of configuration Debug for project app ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5672	    288	   3152	   9112	   2398	app.elf
-Finished building: app.elf.size
- 
-09:11:25 **** Incremental Build of configuration Debug for project app ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5672	    288	   3152	   9112	   2398	app.elf
-Finished building: app.elf.size
- 
-09:18:49 **** Auto Build of configuration Debug for project app ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:78:9: warning: unused variable 'rom_array' [-Wunused-variable]
-     u32 rom_array[8] = {0};
-         ^
 Finished building: ../src/helloworld.c
  
 Building target: app.elf
@@ -229,7 +145,7 @@ mb-size app.elf  |tee "app.elf.size"
    5704	    288	   3152	   9144	   23b8	app.elf
 Finished building: app.elf.size
  
-09:18:52 **** Incremental Build of configuration Debug for project app ****
+10:39:51 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
@@ -237,15 +153,12 @@ mb-size app.elf  |tee "app.elf.size"
    5704	    288	   3152	   9144	   23b8	app.elf
 Finished building: app.elf.size
  
-09:19:24 **** Auto Build of configuration Debug for project app ****
+10:40:15 **** Auto Build of configuration Debug for project app ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.11 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:78:9: warning: variable 'rom_array' set but not used [-Wunused-but-set-variable]
-     u32 rom_array[8] = {0};
-         ^
 Finished building: ../src/helloworld.c
  
 Building target: app.elf
@@ -256,35 +169,411 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5736	    288	   3152	   9176	   23d8	app.elf
+   5672	    288	   3152	   9112	   2398	app.elf
 Finished building: app.elf.size
  
-09:51:27 **** Auto Build of configuration Debug for project app ****
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:40:17 **** Incremental Build of configuration Debug for project app ****
+make all 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    288	   3152	   9112	   2398	app.elf
+Finished building: app.elf.size
+ 
+10:40:47 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+10:40:49 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+10:41:54 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+10:41:56 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+10:42:11 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.038 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:42:13 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+10:42:25 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.36 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:42:56 **** Incremental Build of configuration Debug for project app ****
+make all 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+10:43:11 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.0011 s in the future
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:43:29 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+10:43:31 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.37 s in the future
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5860	    288	   3156	   9304	   2458	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:43:34 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.28 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+10:45:52 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Nothing to be done for `all'.
+10:46:11 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+10:46:13 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    288	   3152	   9328	   2470	app.elf
+Finished building: app.elf.size
+ 
+10:48:45 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `makefile' has modification time 0.3 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
+10:49:52 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.07 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5868	    288	   3156	   9312	   2460	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:49:58 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5868	    288	   3156	   9312	   2460	app.elf
+Finished building: app.elf.size
+ 
+10:51:05 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:51:07 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:51:35 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.12 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5952	    288	   3152	   9392	   24b0	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:51:42 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5952	    288	   3152	   9392	   24b0	app.elf
+Finished building: app.elf.size
+ 
+10:52:00 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:52:02 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.19 s in the future
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:53:26 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.35 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5980	    288	   3156	   9424	   24d0	app.elf
+Finished building: app.elf.size
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:53:30 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5980	    288	   3156	   9424	   24d0	app.elf
+Finished building: app.elf.size
+ 
+10:55:03 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Nothing to be done for `all'.
+10:55:48 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:55:55 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:56:44 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5996	    288	   3156	   9440	   24e0	app.elf
+Finished building: app.elf.size
+ 
+10:56:46 **** Incremental Build of configuration Debug for project app ****
 make all 
 make: Warning: File `src/subdir.mk' has modification time 0.22 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:78:9: warning: variable 'rom_array' set but not used [-Wunused-but-set-variable]
-     u32 rom_array[8] = {0};
-         ^
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5808	    288	   3152	   9248	   2420	app.elf
+   5996	    288	   3156	   9440	   24e0	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-09:53:16 **** Auto Build of configuration Debug for project app ****
+10:57:00 **** Auto Build of configuration Debug for project app ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.28 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
@@ -298,21 +587,13 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5992	    288	   3152	   9432	   24d8	app.elf
-Finished building: app.elf.size
- 
-09:53:17 **** Incremental Build of configuration Debug for project app ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5992	    288	   3152	   9432	   24d8	app.elf
+   5996	    288	   3156	   9440	   24e0	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-09:54:04 **** Auto Build of configuration Debug for project app ****
+10:57:09 **** Auto Build of configuration Debug for project app ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.26 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
@@ -326,25 +607,13 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
+   5980	    288	   3156	   9424	   24d0	app.elf
 Finished building: app.elf.size
  
-09:54:06 **** Incremental Build of configuration Debug for project app ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
-Finished building: app.elf.size
- 
-09:54:24 **** Auto Build of configuration Debug for project app ****
+make: warning:  Clock skew detected.  Your build may be incomplete.
+10:57:12 **** Incremental Build of configuration Debug for project app ****
 make all 
 make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
 Building target: app.elf
 Invoking: MicroBlaze gcc linker
 mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -353,25 +622,13 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
+   5980	    288	   3156	   9424	   24d0	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-09:54:27 **** Incremental Build of configuration Debug for project app ****
+10:57:45 **** Auto Build of configuration Debug for project app ****
 make all 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
-Finished building: app.elf.size
- 
-09:54:56 **** Auto Build of configuration Debug for project app ****
-make all 
+make: Warning: File `src/subdir.mk' has modification time 0.19 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
@@ -385,66 +642,26 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
-Finished building: app.elf.size
- 
-09:54:58 **** Incremental Build of configuration Debug for project app ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6072	    288	   3152	   9512	   2528	app.elf
-Finished building: app.elf.size
- 
-10:20:52 **** Auto Build of configuration Debug for project app ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6208	    288	   3152	   9648	   25b0	app.elf
-Finished building: app.elf.size
- 
-10:26:22 **** Auto Build of configuration Debug for project app ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.0072 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: app.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: app.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size app.elf  |tee "app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6352	    288	   3152	   9792	   2640	app.elf
+   5996	    288	   3156	   9440	   24e0	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:26:24 **** Incremental Build of configuration Debug for project app ****
+10:57:47 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Warning: File `src/subdir.mk' has modification time 0.057 s in the future
+make: Warning: File `src/subdir.mk' has modification time 0.12 s in the future
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6352	    288	   3152	   9792	   2640	app.elf
+   5996	    288	   3156	   9440	   24e0	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:26:44 **** Auto Build of configuration Debug for project app ****
+11:01:41 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -459,20 +676,38 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6208	    288	   3152	   9648	   25b0	app.elf
+   6004	    288	   3156	   9448	   24e8	app.elf
 Finished building: app.elf.size
  
-10:26:45 **** Incremental Build of configuration Debug for project app ****
+11:04:16 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6208	    288	   3152	   9648	   25b0	app.elf
+   6004	    288	   3156	   9448	   24e8	app.elf
+Finished building: app.elf.size
+ 
+11:05:02 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.24 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6004	    288	   3156	   9448	   24e8	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:27:01 **** Auto Build of configuration Debug for project app ****
+11:05:20 **** Auto Build of configuration Debug for project app ****
 make all 
 make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
 Building file: ../src/helloworld.c
@@ -488,23 +723,22 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5992	    288	   3152	   9432	   24d8	app.elf
+   6004	    288	   3156	   9448	   24e8	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:27:02 **** Incremental Build of configuration Debug for project app ****
+11:05:22 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Warning: File `src/subdir.mk' has modification time 0.076 s in the future
+make: Warning: File `src/subdir.mk' has modification time 0.15 s in the future
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5992	    288	   3152	   9432	   24d8	app.elf
+   6004	    288	   3156	   9448	   24e8	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:27:32 **** Auto Build of configuration Debug for project app ****
+11:06:34 **** Auto Build of configuration Debug for project app ****
 make all 
-make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
@@ -518,24 +752,37 @@ Finished building target: app.elf
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6020	    288	   3156	   9464	   24f8	app.elf
+   6012	    288	   3156	   9456	   24f0	app.elf
+Finished building: app.elf.size
+ 
+11:06:37 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Nothing to be done for `all'.
+11:07:19 **** Auto Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.097 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6076	    288	   3156	   9520	   2530	app.elf
 Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:27:34 **** Incremental Build of configuration Debug for project app ****
+11:07:22 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6020	    288	   3156	   9464	   24f8	app.elf
+   6076	    288	   3156	   9520	   2530	app.elf
 Finished building: app.elf.size
  
-10:28:16 **** Incremental Build of configuration Debug for project app ****
-make all 
-make: Nothing to be done for `all'.
-10:29:10 **** Incremental Build of configuration Debug for project app ****
-make all 
-make: Nothing to be done for `all'.
-10:30:19 **** Incremental Build of configuration Debug for project app ****
-make all 
-make: Nothing to be done for `all'.

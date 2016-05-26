@@ -1,4 +1,4 @@
-09:06:05 **** Auto Build of project app_bsp ****
+10:37:47 **** Auto Build of project app_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
@@ -27,5 +27,5 @@ make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER
 Compiling uartlite
 Finished building libraries
 
-09:06:11 Build Finished (took 5s.756ms)
+10:37:53 Build Finished (took 5s.627ms)
 

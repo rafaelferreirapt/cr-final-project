@@ -1,6 +1,11 @@
-10:30:19 **** Incremental Build of configuration Debug for project app ****
+11:07:22 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Nothing to be done for `all'.
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6076	    288	   3156	   9520	   2530	app.elf
+Finished building: app.elf.size
+ 
 
-10:30:20 Build Finished (took 87ms)
+11:07:22 Build Finished (took 204ms)
 
