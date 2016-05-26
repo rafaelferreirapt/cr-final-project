@@ -71,3 +71,8 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 10:30:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504848A" && level==0} -index 0' command is executed.
 10:30:13 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
 10:30:20 INFO  : Processor reset is completed for microblaze_0
+10:31:44 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:31:44 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:31:44 ERROR : Disconnect target failed.
+10:31:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
