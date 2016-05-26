@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="MP3_Design" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1464163317"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1464163317"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1464163317"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1464277888"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1464277888"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1464277888"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/MP3_Design_microblaze_0_0/MP3_Design_microblaze_0_0.xci" Type="IP">
         <Instance HierarchyPath="microblaze_0"/>

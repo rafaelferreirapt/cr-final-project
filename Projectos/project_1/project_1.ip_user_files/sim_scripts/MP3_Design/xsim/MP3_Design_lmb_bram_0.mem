@@ -3,10 +3,10 @@
 // SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
 // Vivado v2016.1 (64-bit)
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
-// Created on Wednesday May 25, 2016 - 02:04:55 am, from:
+// Created on Thursday May 26, 2016 - 04:51:48 pm, from:
 //
-//     Map file     - /home/parallels/Desktop/CR/Projecto/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/MP3_Design.bmm
-//     Data file(s) - /home/parallels/Desktop/CR/Projecto/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_microblaze_0_0/data/mb_bootloop_le.elf
+//     Map file     - /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/MP3_Design.bmm
+//     Data file(s) - /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_microblaze_0_0/data/mb_bootloop_le.elf
 //
 // Address space 'MP3_Design_i_microblaze_0.MP3_Design_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
 //

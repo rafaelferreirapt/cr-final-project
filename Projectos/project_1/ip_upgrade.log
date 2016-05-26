@@ -1,6 +1,27 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 26 16:50:30 2016
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MP3_Design_ramANDrom_wrapper_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of MP3_Design_ramANDrom_wrapper_0_0 (user.org:user:ramANDrom_wrapper:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
 | Date         : Wed May 25 00:02:09 2016
 | Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
 | Command      : upgrade_ip

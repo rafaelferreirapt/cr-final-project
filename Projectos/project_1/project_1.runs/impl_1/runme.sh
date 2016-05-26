@@ -37,7 +37,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log MP3_Design_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source MP3_Design_wrapper.tcl -notrace
 
 

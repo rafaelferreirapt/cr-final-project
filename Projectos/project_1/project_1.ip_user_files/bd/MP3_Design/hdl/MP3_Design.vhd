@@ -1,7 +1,7 @@
 --Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
---Date        : Wed May 25 02:04:44 2016
+--Date        : Thu May 26 16:50:46 2016
 --Host        : ubuntu running 64-bit Ubuntu 14.04.1 LTS
 --Command     : generate_target MP3_Design.bd
 --Design      : MP3_Design
@@ -2406,49 +2406,17 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity MP3_Design is
   port (
-    an : out STD_LOGIC_VECTOR ( 7 downto 0 );
-    btnC : in STD_LOGIC;
     btnCpuReset : in STD_LOGIC;
     btnL : in STD_LOGIC;
-    clk : in STD_LOGIC;
-    seg : out STD_LOGIC_VECTOR ( 6 downto 0 );
-    sw : in STD_LOGIC_VECTOR ( 15 downto 0 )
+    clk : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of MP3_Design : entity is "MP3_Design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=MP3_Design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=35,numReposBlks=27,numNonXlnxBlks=4,numHierBlks=8,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_board_cnt=3,da_mb_cnt=1,synth_mode=Global}";
+  attribute CORE_GENERATION_INFO of MP3_Design : entity is "MP3_Design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=MP3_Design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=22,numReposBlks=14,numNonXlnxBlks=1,numHierBlks=8,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_board_cnt=3,da_mb_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of MP3_Design : entity is "MP3_Design.hwdef";
 end MP3_Design;
 
 architecture STRUCTURE of MP3_Design is
-  component MP3_Design_BinToBCD16_0_0 is
-  port (
-    clk : in STD_LOGIC;
-    reset : in STD_LOGIC;
-    ready : out STD_LOGIC;
-    binary : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    request : in STD_LOGIC;
-    BCD4 : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    BCD3 : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    BCD2 : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    BCD1 : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    BCD0 : out STD_LOGIC_VECTOR ( 3 downto 0 )
-  );
-  end component MP3_Design_BinToBCD16_0_0;
-  component MP3_Design_xlconcat_0_0 is
-  port (
-    In0 : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    In1 : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    In2 : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    In3 : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    dout : out STD_LOGIC_VECTOR ( 15 downto 0 )
-  );
-  end component MP3_Design_xlconcat_0_0;
-  component MP3_Design_xlconstant_0_0 is
-  port (
-    dout : out STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component MP3_Design_xlconstant_0_0;
   component MP3_Design_axi_gpio_0_0 is
   port (
     s_axi_aclk : in STD_LOGIC;
@@ -2471,7 +2439,7 @@ architecture STRUCTURE of MP3_Design is
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
     gpio_io_o : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    gpio2_io_i : in STD_LOGIC_VECTOR ( 15 downto 0 )
+    gpio2_io_i : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP3_Design_axi_gpio_0_0;
   component MP3_Design_clk_wiz_1_0 is
@@ -2658,64 +2626,6 @@ architecture STRUCTURE of MP3_Design is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component MP3_Design_rst_clk_wiz_1_100M_0;
-  component MP3_Design_xlconcat_1_0 is
-  port (
-    In0 : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    In1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
-  );
-  end component MP3_Design_xlconcat_1_0;
-  component MP3_Design_smart_mux_0_1 is
-  port (
-    port_in : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    port_out : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    select_port : in STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component MP3_Design_smart_mux_0_1;
-  component MP3_Design_xlconcat_2_0 is
-  port (
-    In0 : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    In1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
-  );
-  end component MP3_Design_xlconcat_2_0;
-  component MP3_Design_xlconstant_1_0 is
-  port (
-    dout : out STD_LOGIC_VECTOR ( 15 downto 0 )
-  );
-  end component MP3_Design_xlconstant_1_0;
-  component MP3_Design_dist_mem_gen_0_0 is
-  port (
-    a : in STD_LOGIC_VECTOR ( 4 downto 0 );
-    d : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    dpra : in STD_LOGIC_VECTOR ( 4 downto 0 );
-    clk : in STD_LOGIC;
-    we : in STD_LOGIC;
-    dpo : out STD_LOGIC_VECTOR ( 15 downto 0 )
-  );
-  end component MP3_Design_dist_mem_gen_0_0;
-  component MP3_Design_xlslice_0_1 is
-  port (
-    Din : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    Dout : out STD_LOGIC_VECTOR ( 4 downto 0 )
-  );
-  end component MP3_Design_xlslice_0_1;
-  component MP3_Design_xlslice_1_2 is
-  port (
-    Din : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    Dout : out STD_LOGIC_VECTOR ( 15 downto 0 )
-  );
-  end component MP3_Design_xlslice_1_2;
-  component MP3_Design_xlconstant_2_0 is
-  port (
-    dout : out STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component MP3_Design_xlconstant_2_0;
-  component MP3_Design_xlconstant_3_0 is
-  port (
-    dout : out STD_LOGIC_VECTOR ( 15 downto 0 )
-  );
-  end component MP3_Design_xlconstant_3_0;
   component MP3_Design_ramANDrom_wrapper_0_0 is
   port (
     clk : in STD_LOGIC;
@@ -2723,27 +2633,11 @@ architecture STRUCTURE of MP3_Design is
     m_out : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP3_Design_ramANDrom_wrapper_0_0;
-  component MP3_Design_DC32_0_1 is
-  port (
-    clk : in STD_LOGIC;
-    data_in : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    select_display : out STD_LOGIC_VECTOR ( 7 downto 0 );
-    segments : out STD_LOGIC_VECTOR ( 6 downto 0 )
-  );
-  end component MP3_Design_DC32_0_1;
-  signal BinToBCD16_0_BCD0 : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal BinToBCD16_0_BCD1 : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal BinToBCD16_0_BCD2 : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal BinToBCD16_0_BCD3 : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal DC32_0_segments : STD_LOGIC_VECTOR ( 6 downto 0 );
-  signal DC32_0_select_display : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal axi_gpio_0_gpio_io_o : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal btnC_1 : STD_LOGIC;
   signal btnCpuReset_1 : STD_LOGIC;
   signal btnL_1 : STD_LOGIC;
   signal clk_1 : STD_LOGIC;
   signal clk_wiz_1_locked : STD_LOGIC;
-  signal dist_mem_gen_0_dpo : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal mdm_1_debug_sys_rst : STD_LOGIC;
   signal microblaze_0_Clk : STD_LOGIC;
   signal microblaze_0_M_AXI_DC_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -2879,19 +2773,6 @@ architecture STRUCTURE of MP3_Design is
   signal rst_clk_wiz_1_100M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_1_100M_mb_reset : STD_LOGIC;
   signal rst_clk_wiz_1_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal smart_mux_0_port_out : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal sw_1 : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal xlconcat_0_dout : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal xlconcat_1_dout : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal xlconcat_2_dout : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal xlconstant_0_dout : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal xlconstant_1_dout : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal xlconstant_2_dout : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal xlconstant_3_dout : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal xlslice_0_Dout : STD_LOGIC_VECTOR ( 4 downto 0 );
-  signal xlslice_2_Dout : STD_LOGIC_VECTOR ( 15 downto 0 );
-  signal NLW_BinToBCD16_0_ready_UNCONNECTED : STD_LOGIC;
-  signal NLW_BinToBCD16_0_BCD4_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_mdm_1_Interrupt_UNCONNECTED : STD_LOGIC;
   signal NLW_microblaze_0_M_AXI_IC_AWLOCK_UNCONNECTED : STD_LOGIC;
   signal NLW_microblaze_0_M_AXI_IC_AWVALID_UNCONNECTED : STD_LOGIC;
@@ -2929,36 +2810,12 @@ architecture STRUCTURE of MP3_Design is
   attribute KEEP_HIERARCHY : string;
   attribute KEEP_HIERARCHY of microblaze_0 : label is "yes";
 begin
-  an(7 downto 0) <= DC32_0_select_display(7 downto 0);
-  btnC_1 <= btnC;
   btnCpuReset_1 <= btnCpuReset;
   btnL_1 <= btnL;
   clk_1 <= clk;
-  seg(6 downto 0) <= DC32_0_segments(6 downto 0);
-  sw_1(15 downto 0) <= sw(15 downto 0);
-BinToBCD16_0: component MP3_Design_BinToBCD16_0_0
-     port map (
-      BCD0(3 downto 0) => BinToBCD16_0_BCD0(3 downto 0),
-      BCD1(3 downto 0) => BinToBCD16_0_BCD1(3 downto 0),
-      BCD2(3 downto 0) => BinToBCD16_0_BCD2(3 downto 0),
-      BCD3(3 downto 0) => BinToBCD16_0_BCD3(3 downto 0),
-      BCD4(3 downto 0) => NLW_BinToBCD16_0_BCD4_UNCONNECTED(3 downto 0),
-      binary(15 downto 0) => dist_mem_gen_0_dpo(15 downto 0),
-      clk => microblaze_0_Clk,
-      ready => NLW_BinToBCD16_0_ready_UNCONNECTED,
-      request => xlconstant_0_dout(0),
-      reset => btnL_1
-    );
-DC32_0: component MP3_Design_DC32_0_1
-     port map (
-      clk => microblaze_0_Clk,
-      data_in(31 downto 0) => xlconcat_2_dout(31 downto 0),
-      segments(6 downto 0) => DC32_0_segments(6 downto 0),
-      select_display(7 downto 0) => DC32_0_select_display(7 downto 0)
-    );
 axi_gpio_0: component MP3_Design_axi_gpio_0_0
      port map (
-      gpio2_io_i(15 downto 0) => xlconstant_3_dout(15 downto 0),
+      gpio2_io_i(31 downto 0) => ramANDrom_wrapper_0_m_out(31 downto 0),
       gpio_io_o(31 downto 0) => axi_gpio_0_gpio_io_o(31 downto 0),
       s_axi_aclk => microblaze_0_Clk,
       s_axi_araddr(8 downto 0) => microblaze_0_axi_periph_M01_AXI_ARADDR(8 downto 0),
@@ -2986,15 +2843,6 @@ clk_wiz_1: component MP3_Design_clk_wiz_1_0
       clk_out1 => microblaze_0_Clk,
       locked => clk_wiz_1_locked,
       reset => btnL_1
-    );
-dist_mem_gen_0: component MP3_Design_dist_mem_gen_0_0
-     port map (
-      a(4 downto 0) => xlslice_0_Dout(4 downto 0),
-      clk => microblaze_0_Clk,
-      d(15 downto 0) => xlslice_2_Dout(15 downto 0),
-      dpo(15 downto 0) => dist_mem_gen_0_dpo(15 downto 0),
-      dpra(4 downto 0) => xlslice_0_Dout(4 downto 0),
-      we => xlconstant_2_dout(0)
     );
 mdm_1: component MP3_Design_mdm_1_0
      port map (
@@ -3320,7 +3168,7 @@ microblaze_0_local_memory: entity work.microblaze_0_local_memory_imp_1F9PUMS
 ramANDrom_wrapper_0: component MP3_Design_ramANDrom_wrapper_0_0
      port map (
       clk => microblaze_0_Clk,
-      m_in(31 downto 0) => ramANDrom_wrapper_0_m_out(31 downto 0),
+      m_in(31 downto 0) => axi_gpio_0_gpio_io_o(31 downto 0),
       m_out(31 downto 0) => ramANDrom_wrapper_0_m_out(31 downto 0)
     );
 rst_clk_wiz_1_100M: component MP3_Design_rst_clk_wiz_1_100M_0
@@ -3335,57 +3183,5 @@ rst_clk_wiz_1_100M: component MP3_Design_rst_clk_wiz_1_100M_0
       peripheral_aresetn(0) => rst_clk_wiz_1_100M_peripheral_aresetn(0),
       peripheral_reset(0) => NLW_rst_clk_wiz_1_100M_peripheral_reset_UNCONNECTED(0),
       slowest_sync_clk => microblaze_0_Clk
-    );
-smart_mux_0: component MP3_Design_smart_mux_0_1
-     port map (
-      port_in(31 downto 0) => xlconcat_1_dout(31 downto 0),
-      port_out(15 downto 0) => smart_mux_0_port_out(15 downto 0),
-      select_port(0) => btnC_1
-    );
-xlconcat_0: component MP3_Design_xlconcat_0_0
-     port map (
-      In0(3 downto 0) => BinToBCD16_0_BCD0(3 downto 0),
-      In1(3 downto 0) => BinToBCD16_0_BCD1(3 downto 0),
-      In2(3 downto 0) => BinToBCD16_0_BCD2(3 downto 0),
-      In3(3 downto 0) => BinToBCD16_0_BCD3(3 downto 0),
-      dout(15 downto 0) => xlconcat_0_dout(15 downto 0)
-    );
-xlconcat_1: component MP3_Design_xlconcat_1_0
-     port map (
-      In0(15 downto 0) => dist_mem_gen_0_dpo(15 downto 0),
-      In1(15 downto 0) => xlconcat_0_dout(15 downto 0),
-      dout(31 downto 0) => xlconcat_1_dout(31 downto 0)
-    );
-xlconcat_2: component MP3_Design_xlconcat_2_0
-     port map (
-      In0(15 downto 0) => smart_mux_0_port_out(15 downto 0),
-      In1(15 downto 0) => xlconstant_1_dout(15 downto 0),
-      dout(31 downto 0) => xlconcat_2_dout(31 downto 0)
-    );
-xlconstant_0: component MP3_Design_xlconstant_0_0
-     port map (
-      dout(0) => xlconstant_0_dout(0)
-    );
-xlconstant_1: component MP3_Design_xlconstant_1_0
-     port map (
-      dout(15 downto 0) => xlconstant_1_dout(15 downto 0)
-    );
-xlconstant_2: component MP3_Design_xlconstant_2_0
-     port map (
-      dout(0) => xlconstant_2_dout(0)
-    );
-xlconstant_3: component MP3_Design_xlconstant_3_0
-     port map (
-      dout(15 downto 0) => xlconstant_3_dout(15 downto 0)
-    );
-xlslice_0: component MP3_Design_xlslice_0_1
-     port map (
-      Din(15 downto 0) => sw_1(15 downto 0),
-      Dout(4 downto 0) => xlslice_0_Dout(4 downto 0)
-    );
-xlslice_2: component MP3_Design_xlslice_1_2
-     port map (
-      Din(31 downto 0) => axi_gpio_0_gpio_io_o(31 downto 0),
-      Dout(15 downto 0) => xlslice_2_Dout(15 downto 0)
     );
 end STRUCTURE;

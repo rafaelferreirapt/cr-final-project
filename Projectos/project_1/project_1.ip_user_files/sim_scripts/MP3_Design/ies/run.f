@@ -91,12 +91,6 @@
 -endlib
 -makelib ies/xil_defaultlib \
   "../../../bd/MP3_Design/ip/MP3_Design_axi_gpio_0_0/sim/MP3_Design_axi_gpio_0_0.vhd" \
-  "../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/bintobcd16_v1_0/Binary_to_BCD16.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_BinToBCD16_0_0/sim/MP3_Design_BinToBCD16_0_0.vhd" \
-  "../../../bd/MP3_Design/ipshared/xilinx.com/xlconcat_v2_1/xlconcat.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconcat_0_0/sim/MP3_Design_xlconcat_0_0.vhd" \
-  "../../../bd/MP3_Design/ipshared/xilinx.com/xlconstant_v1_1/xlconstant.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconstant_0_0/sim/MP3_Design_xlconstant_0_0.vhd" \
 -endlib
 -makelib ies/generic_baseblocks_v2_1_0 \
   "../../../ipstatic/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v" \
@@ -162,24 +156,9 @@
 -endlib
 -makelib ies/xil_defaultlib \
   "../../../bd/MP3_Design/hdl/MP3_Design.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconcat_1_0/sim/MP3_Design_xlconcat_1_0.vhd" \
-  "../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/user.org/smart_mux_v1_0/sources_1/new/smart_mux.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_smart_mux_0_1/sim/MP3_Design_smart_mux_0_1.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconcat_2_0/sim/MP3_Design_xlconcat_2_0.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconstant_1_0/sim/MP3_Design_xlconstant_1_0.vhd" \
--endlib
--makelib ies/dist_mem_gen_v8_0_10 \
-  "../../../ipstatic/dist_mem_gen_v8_0/simulation/dist_mem_gen_v8_0.v" \
 -endlib
 -makelib ies/xil_defaultlib \
-  "../../../bd/MP3_Design/ip/MP3_Design_dist_mem_gen_0_0/sim/MP3_Design_dist_mem_gen_0_0.v" \
--endlib
--makelib ies/xil_defaultlib \
-  "../../../bd/MP3_Design/ipshared/xilinx.com/xlslice_v1_0/xlslice.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlslice_0_1/sim/MP3_Design_xlslice_0_1.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlslice_1_2/sim/MP3_Design_xlslice_1_2.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconstant_2_0/sim/MP3_Design_xlconstant_2_0.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_xlconstant_3_0/sim/MP3_Design_xlconstant_3_0.vhd" \
+  "../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v" \
 -endlib
 -makelib ies/blk_mem_gen_v8_3_2 \
   "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_blk_mem_gen_0_0/sim/ramANDrom_blk_mem_gen_0_0.v" \
@@ -193,14 +172,8 @@
   "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_1/sim/ramANDrom_xlslice_0_1.v" \
   "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_2/sim/ramANDrom_xlslice_0_2.v" \
   "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/sim/ramANDrom_xlslice_0_3.v" \
-  "../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v" \
   "../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v" \
   "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/sim/MP3_Design_ramANDrom_wrapper_0_0.v" \
--endlib
--makelib ies/xil_defaultlib \
-  "../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/dc32_v1_0/segment_decoder.vhd" \
-  "../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/dc32_v1_0/disp.vhd" \
-  "../../../bd/MP3_Design/ip/MP3_Design_DC32_0_1/sim/MP3_Design_DC32_0_1.vhd" \
 -endlib
 -makelib ies/axi_protocol_converter_v2_1_8 \
   "../../../ipstatic/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v" \

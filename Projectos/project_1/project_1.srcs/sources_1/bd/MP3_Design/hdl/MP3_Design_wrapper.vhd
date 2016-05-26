@@ -1,7 +1,7 @@
 --Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
---Date        : Wed May 25 09:01:51 2016
+--Date        : Thu May 26 16:50:46 2016
 --Host        : ubuntu running 64-bit Ubuntu 14.04.1 LTS
 --Command     : generate_target MP3_Design_wrapper.bd
 --Design      : MP3_Design_wrapper

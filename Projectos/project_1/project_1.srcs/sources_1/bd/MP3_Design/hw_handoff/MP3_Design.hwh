@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 25 09:01:54 2016" VIVADOVERSION="2016.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May 26 16:51:26 2016" VIVADOVERSION="2016.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="MP3_Design" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -919,7 +919,6 @@
             <CONNECTION INSTANCE="mdm_1" PORT="S_AXI_ACLK"/>
             <CONNECTION INSTANCE="microblaze_0" PORT="Clk"/>
             <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="slowest_sync_clk"/>
-            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_dlmb_bram_if_cntlr" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_dlmb_v10" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_ilmb_bram_if_cntlr" PORT="LMB_Clk"/>
@@ -931,6 +930,7 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="S02_ACLK"/>
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="M01_ACLK"/>
             <CONNECTION INSTANCE="microblaze_0_axi_periph" PORT="M02_ACLK"/>
+            <CONNECTION INSTANCE="ramANDrom_wrapper_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_1_locked">

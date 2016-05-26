@@ -19,7 +19,6 @@ vlib riviera/axi_register_slice_v2_1_8
 vlib riviera/fifo_generator_v13_1_0
 vlib riviera/axi_data_fifo_v2_1_7
 vlib riviera/axi_crossbar_v2_1_9
-vlib riviera/dist_mem_gen_v8_0_10
 vlib riviera/axi_protocol_converter_v2_1_8
 
 vmap xil_defaultlib riviera/xil_defaultlib
@@ -40,7 +39,6 @@ vmap axi_register_slice_v2_1_8 riviera/axi_register_slice_v2_1_8
 vmap fifo_generator_v13_1_0 riviera/fifo_generator_v13_1_0
 vmap axi_data_fifo_v2_1_7 riviera/axi_data_fifo_v2_1_7
 vmap axi_crossbar_v2_1_9 riviera/axi_crossbar_v2_1_9
-vmap dist_mem_gen_v8_0_10 riviera/dist_mem_gen_v8_0_10
 vmap axi_protocol_converter_v2_1_8 riviera/axi_protocol_converter_v2_1_8
 
 vlog -work xil_defaultlib -v2k5 -sv "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
@@ -136,12 +134,6 @@ vcom -work axi_gpio_v2_0_10 -93 \
 
 vcom -work xil_defaultlib -93 \
 "../../../bd/MP3_Design/ip/MP3_Design_axi_gpio_0_0/sim/MP3_Design_axi_gpio_0_0.vhd" \
-"../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/bintobcd16_v1_0/Binary_to_BCD16.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_BinToBCD16_0_0/sim/MP3_Design_BinToBCD16_0_0.vhd" \
-"../../../bd/MP3_Design/ipshared/xilinx.com/xlconcat_v2_1/xlconcat.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconcat_0_0/sim/MP3_Design_xlconcat_0_0.vhd" \
-"../../../bd/MP3_Design/ipshared/xilinx.com/xlconstant_v1_1/xlconstant.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconstant_0_0/sim/MP3_Design_xlconstant_0_0.vhd" \
 
 vlog -work generic_baseblocks_v2_1_0 -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
 "../../../ipstatic/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v" \
@@ -207,24 +199,9 @@ vlog -work xil_defaultlib -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1
 
 vcom -work xil_defaultlib -93 \
 "../../../bd/MP3_Design/hdl/MP3_Design.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconcat_1_0/sim/MP3_Design_xlconcat_1_0.vhd" \
-"../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/user.org/smart_mux_v1_0/sources_1/new/smart_mux.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_smart_mux_0_1/sim/MP3_Design_smart_mux_0_1.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconcat_2_0/sim/MP3_Design_xlconcat_2_0.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconstant_1_0/sim/MP3_Design_xlconstant_1_0.vhd" \
-
-vlog -work dist_mem_gen_v8_0_10 -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
-"../../../ipstatic/dist_mem_gen_v8_0/simulation/dist_mem_gen_v8_0.v" \
 
 vlog -work xil_defaultlib -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
-"../../../bd/MP3_Design/ip/MP3_Design_dist_mem_gen_0_0/sim/MP3_Design_dist_mem_gen_0_0.v" \
-
-vcom -work xil_defaultlib -93 \
-"../../../bd/MP3_Design/ipshared/xilinx.com/xlslice_v1_0/xlslice.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlslice_0_1/sim/MP3_Design_xlslice_0_1.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlslice_1_2/sim/MP3_Design_xlslice_1_2.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconstant_2_0/sim/MP3_Design_xlconstant_2_0.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_xlconstant_3_0/sim/MP3_Design_xlconstant_3_0.vhd" \
+"../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v" \
 
 vlog -work blk_mem_gen_v8_3_2 -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
 "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_blk_mem_gen_0_0/sim/ramANDrom_blk_mem_gen_0_0.v" \
@@ -238,14 +215,8 @@ vlog -work xil_defaultlib -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1
 "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_1/sim/ramANDrom_xlslice_0_1.v" \
 "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_2/sim/ramANDrom_xlslice_0_2.v" \
 "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/ip/ramANDrom_xlslice_0_3/sim/ramANDrom_xlslice_0_3.v" \
-"../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom.v" \
 "../../../bd/MP3_Design/ipshared/user.org/ramandrom_wrapper_v1_0/ramANDrom/ramANDrom.srcs/sources_1/bd/ramANDrom/hdl/ramANDrom_wrapper.v" \
 "../../../bd/MP3_Design/ip/MP3_Design_ramANDrom_wrapper_0_0/sim/MP3_Design_ramANDrom_wrapper_0_0.v" \
-
-vcom -work xil_defaultlib -93 \
-"../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/dc32_v1_0/segment_decoder.vhd" \
-"../../../../project_1.srcs/sources_1/bd/MP3_Design/ipshared/ua.pt/dc32_v1_0/disp.vhd" \
-"../../../bd/MP3_Design/ip/MP3_Design_DC32_0_1/sim/MP3_Design_DC32_0_1.vhd" \
 
 vlog -work axi_protocol_converter_v2_1_8 -v2k5 "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" "+incdir+../../../ipstatic/axi_infrastructure_v1_1/hdl/verilog" "+incdir+../../../ipstatic/clk_wiz_v5_3" \
 "../../../ipstatic/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v" \

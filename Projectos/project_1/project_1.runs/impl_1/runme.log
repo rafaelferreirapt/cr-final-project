@@ -24,7 +24,7 @@ Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/
 Finished Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_ilmb_v10_0/MP3_Design_ilmb_v10_0.xdc] for cell 'MP3_Design_i/microblaze_0_local_memory/ilmb_v10/U0'
 Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_mdm_1_0/MP3_Design_mdm_1_0.xdc] for cell 'MP3_Design_i/mdm_1/U0'
 INFO: [Timing 38-35] Done setting XDC timing constraints. [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_mdm_1_0/MP3_Design_mdm_1_0.xdc:50]
-get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1694.785 ; gain = 458.445 ; free physical = 4349 ; free virtual = 6608
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1694.789 ; gain = 458.445 ; free physical = 4076 ; free virtual = 6631
 Finished Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_mdm_1_0/MP3_Design_mdm_1_0.xdc] for cell 'MP3_Design_i/mdm_1/U0'
 Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_clk_wiz_1_0/MP3_Design_clk_wiz_1_0_board.xdc] for cell 'MP3_Design_i/clk_wiz_1/inst'
 Finished Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_clk_wiz_1_0/MP3_Design_clk_wiz_1_0_board.xdc] for cell 'MP3_Design_i/clk_wiz_1/inst'
@@ -242,7 +242,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 16 instances
   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
 
-link_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1695.789 ; gain = 730.469 ; free physical = 4347 ; free virtual = 6606
+link_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1695.793 ; gain = 730.469 ; free physical = 4069 ; free virtual = 6625
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -253,40 +253,40 @@ INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1727.801 ; gain = 32.008 ; free physical = 4346 ; free virtual = 6605
+Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.17 . Memory (MB): peak = 1727.805 ; gain = 32.008 ; free physical = 4068 ; free virtual = 6624
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-2] Deriving generated clocks
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 240ef4bd7
+Implement Debug Cores | Checksum: 2b0042c4a
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 4 inverter(s) to 7 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1b829aa89
+Phase 1 Retarget | Checksum: 1cc388ff9
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1728.801 ; gain = 0.000 ; free physical = 4345 ; free virtual = 6604
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1728.805 ; gain = 0.000 ; free physical = 4068 ; free virtual = 6624
 
 Phase 2 Constant Propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 389 cells.
-Phase 2 Constant Propagation | Checksum: 187b18cb3
+Phase 2 Constant Propagation | Checksum: 21af2e555
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1728.801 ; gain = 0.000 ; free physical = 4345 ; free virtual = 6604
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1728.805 ; gain = 0.000 ; free physical = 4066 ; free virtual = 6622
 
 Phase 3 Sweep
 INFO: [Opt 31-12] Eliminated 2091 unconnected nets.
 INFO: [Opt 31-11] Eliminated 1333 unconnected cells.
-Phase 3 Sweep | Checksum: 25fab6bf4
+Phase 3 Sweep | Checksum: 1ff697836
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1728.801 ; gain = 0.000 ; free physical = 4345 ; free virtual = 6604
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1728.805 ; gain = 0.000 ; free physical = 4066 ; free virtual = 6622
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1728.801 ; gain = 0.000 ; free physical = 4345 ; free virtual = 6604
-Ending Logic Optimization Task | Checksum: 25fab6bf4
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1728.805 ; gain = 0.000 ; free physical = 4066 ; free virtual = 6622
+Ending Logic Optimization Task | Checksum: 1ff697836
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1728.801 ; gain = 0.000 ; free physical = 4345 ; free virtual = 6604
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1728.805 ; gain = 0.000 ; free physical = 4066 ; free virtual = 6622
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -304,21 +304,21 @@ INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 0 newly gated: 8 Total Ports: 48
 Number of Flops added for Enable Generation: 3
 
-Ending PowerOpt Patch Enables Task | Checksum: 2714dbd08
+Ending PowerOpt Patch Enables Task | Checksum: 2763fdf29
 
-Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4287 ; free virtual = 6545
-Ending Power Optimization Task | Checksum: 2714dbd08
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3955 ; free virtual = 6517
+Ending Power Optimization Task | Checksum: 2763fdf29
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1937.824 ; gain = 209.023 ; free physical = 4287 ; free virtual = 6545
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1936.828 ; gain = 208.023 ; free physical = 3954 ; free virtual = 6517
 INFO: [Common 17-83] Releasing license: Implementation
 29 Infos, 64 Warnings, 64 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1937.824 ; gain = 242.031 ; free physical = 4287 ; free virtual = 6545
+opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1936.828 ; gain = 241.031 ; free physical = 3954 ; free virtual = 6517
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4287 ; free virtual = 6545
+Write XDEF Complete: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3954 ; free virtual = 6517
 INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Coretcl 2-168] The results of DRC are in file /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/MP3_Design_wrapper_drc_opted.rpt.
 INFO: [Chipscope 16-241] No debug cores found in the current design.
@@ -339,36 +339,36 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4283 ; free virtual = 6542
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3950 ; free virtual = 6516
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4283 ; free virtual = 6542
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3950 ; free virtual = 6516
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 
 Phase 1.1.1 Pre-Place Cells
 Phase 1.1.1 Pre-Place Cells | Checksum: 9beec373
 
-Time (s): cpu = 00:00:00.99 ; elapsed = 00:00:00.82 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4283 ; free virtual = 6542
+Time (s): cpu = 00:00:00.96 ; elapsed = 00:00:00.77 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3950 ; free virtual = 6516
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 1.1.2 IO and Clk Clean Up
 Phase 1.1.2 IO and Clk Clean Up | Checksum: 9beec373
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3947 ; free virtual = 6517
 
 Phase 1.1.3 Implementation Feasibility check On IDelay
 Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: 9beec373
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3947 ; free virtual = 6517
 
 Phase 1.1.4 Commit IO Placement
 Phase 1.1.4 Commit IO Placement | Checksum: 4fdb8793
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3947 ; free virtual = 6517
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1343f8f6e
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3947 ; free virtual = 6517
 
 Phase 1.2 Build Placer Netlist Model
 
@@ -377,81 +377,81 @@ Phase 1.2.1 Place Init Design
 Phase 1.2.1.1 Init Lut Pin Assignment
 Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 11d9594c7
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3945 ; free virtual = 6517
 Phase 1.2.1 Place Init Design | Checksum: 18c2d5e30
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3944 ; free virtual = 6517
 Phase 1.2 Build Placer Netlist Model | Checksum: 18c2d5e30
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3944 ; free virtual = 6517
 
 Phase 1.3 Constrain Clocks/Macros
 Phase 1.3 Constrain Clocks/Macros | Checksum: 18c2d5e30
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3944 ; free virtual = 6517
 Phase 1 Placer Initialization | Checksum: 18c2d5e30
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3944 ; free virtual = 6517
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 16e4cf5c8
+Phase 2 Global Placement | Checksum: 146bf3b1b
 
-Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4281 ; free virtual = 6540
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 16e4cf5c8
+Phase 3.1 Commit Multi Column Macros | Checksum: 146bf3b1b
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4281 ; free virtual = 6540
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 15dd3e879
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 192867cf2
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 148e45240
+Phase 3.3 Area Swap Optimization | Checksum: 11d47d4c2
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.4 updateClock Trees: DP
-Phase 3.4 updateClock Trees: DP | Checksum: 148e45240
+Phase 3.4 updateClock Trees: DP | Checksum: 11d47d4c2
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 1b94ec6e1
+Phase 3.5 Timing Path Optimizer | Checksum: 1b3757c69
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.6 Fast Optimization
-Phase 3.6 Fast Optimization | Checksum: 1b94ec6e1
+Phase 3.6 Fast Optimization | Checksum: 1b3757c69
 
-Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.7 Small Shape Detail Placement
-Phase 3.7 Small Shape Detail Placement | Checksum: 82520b34
+Phase 3.7 Small Shape Detail Placement | Checksum: a9e4a15e
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.8 Re-assign LUT pins
-Phase 3.8 Re-assign LUT pins | Checksum: 95c0c986
+Phase 3.8 Re-assign LUT pins | Checksum: a75d653a
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4281 ; free virtual = 6540
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.9 Pipeline Register Optimization
-Phase 3.9 Pipeline Register Optimization | Checksum: 95c0c986
+Phase 3.9 Pipeline Register Optimization | Checksum: a75d653a
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4281 ; free virtual = 6540
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 3.10 Fast Optimization
-Phase 3.10 Fast Optimization | Checksum: 95c0c986
+Phase 3.10 Fast Optimization | Checksum: a75d653a
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:17 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
-Phase 3 Detail Placement | Checksum: 95c0c986
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:15 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
+Phase 3 Detail Placement | Checksum: a75d653a
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:17 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:15 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -459,56 +459,56 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 updateClock Trees: PCOPT
-Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 166281b0e
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: e7c636c2
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6516
 
 Phase 4.1.2 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=1.411. For the most accurate timing information please run report_timing.
-Phase 4.1.2 Post Placement Optimization | Checksum: 155b652d4
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.320. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: c9cbe780
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
-Phase 4.1 Post Commit Optimization | Checksum: 155b652d4
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6517
+Phase 4.1 Post Commit Optimization | Checksum: c9cbe780
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6517
 
 Phase 4.2 Sweep Clock Roots: Post-Placement
-Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 155b652d4
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: c9cbe780
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6517
 
 Phase 4.3 Post Placement Cleanup
-Phase 4.3 Post Placement Cleanup | Checksum: 155b652d4
+Phase 4.3 Post Placement Cleanup | Checksum: c9cbe780
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6517
 
 Phase 4.4 Placer Reporting
-Phase 4.4 Placer Reporting | Checksum: 155b652d4
+Phase 4.4 Placer Reporting | Checksum: c9cbe780
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3941 ; free virtual = 6517
 
 Phase 4.5 Final Placement Cleanup
-Phase 4.5 Final Placement Cleanup | Checksum: 141cf5f09
+Phase 4.5 Final Placement Cleanup | Checksum: b5e4f3b5
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 141cf5f09
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6516
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: b5e4f3b5
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
-Ending Placer Task | Checksum: 44977610
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6516
+Ending Placer Task | Checksum: 2e24f419
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6516
 INFO: [Common 17-83] Releasing license: Implementation
 46 Infos, 64 Warnings, 64 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:19 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6541
+place_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6516
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4282 ; free virtual = 6540
-report_io: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4277 ; free virtual = 6536
-report_utilization: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4277 ; free virtual = 6536
-report_control_sets: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4277 ; free virtual = 6536
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.96 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6516
+report_io: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3940 ; free virtual = 6515
+report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3939 ; free virtual = 6515
+report_control_sets: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3939 ; free virtual = 6515
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -520,126 +520,112 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
-Checksum: PlaceDB: 2b7cb151 ConstDB: 0 ShapeSum: 191ac4bf RouteDB: 0
+Checksum: PlaceDB: 150a2f5a ConstDB: 0 ShapeSum: 191ac4bf RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 12a993b2c
+Phase 1 Build RT Design | Checksum: 13421a8ea
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:33 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4171 ; free virtual = 6430
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3880 ; free virtual = 6458
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 12a993b2c
+Phase 2.1 Create Timer | Checksum: 13421a8ea
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:33 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4171 ; free virtual = 6430
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3880 ; free virtual = 6458
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 12a993b2c
+Phase 2.2 Fix Topology Constraints | Checksum: 13421a8ea
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:34 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4171 ; free virtual = 6430
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3879 ; free virtual = 6458
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 12a993b2c
+Phase 2.3 Pre Route Cleanup | Checksum: 13421a8ea
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:34 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4171 ; free virtual = 6430
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3879 ; free virtual = 6458
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 2b26fcb0b
+Phase 2.4 Update Timing | Checksum: 18971aad0
 
-Time (s): cpu = 00:00:54 ; elapsed = 00:00:40 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4160 ; free virtual = 6419
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.738  | TNS=0.000  | WHS=-0.290 | THS=-217.902|
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3869 ; free virtual = 6449
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.716  | TNS=0.000  | WHS=-0.432 | THS=-212.746|
 
-Phase 2 Router Initialization | Checksum: 27aaa2fda
+Phase 2 Router Initialization | Checksum: 12fa82880
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4160 ; free virtual = 6419
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:29 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3869 ; free virtual = 6448
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 12e7fcef4
+Phase 3 Initial Routing | Checksum: ecd939af
 
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6408
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3854 ; free virtual = 6434
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 431
- Number of Nodes with overlaps = 33
- Number of Nodes with overlaps = 6
- Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 509
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 13f37f087
+Phase 4.1.1 Update Timing | Checksum: 15c1e6396
 
-Time (s): cpu = 00:01:20 ; elapsed = 00:00:51 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.291  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:34 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.641  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 18f16d1e8
+Phase 4.1 Global Iteration 0 | Checksum: bb689c05
 
-Time (s): cpu = 00:01:21 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+Phase 4 Rip-up And Reroute | Checksum: bb689c05
 
-Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 0
-
-Phase 4.2.1 Update Timing
-Phase 4.2.1 Update Timing | Checksum: 2259fbd99
-
-Time (s): cpu = 00:01:21 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.291  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 4.2 Global Iteration 1 | Checksum: 1f0d32d77
-
-Time (s): cpu = 00:01:21 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
-Phase 4 Rip-up And Reroute | Checksum: 1f0d32d77
-
-Time (s): cpu = 00:01:21 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 238980bad
+Phase 5.1.1 Update Timing | Checksum: 13c59dc41
 
-Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.370  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.641  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 5.1 Delay CleanUp | Checksum: 238980bad
+Phase 5.1 Delay CleanUp | Checksum: 13c59dc41
 
-Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 238980bad
+Phase 5.2 Clock Skew Optimization | Checksum: 13c59dc41
 
-Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
-Phase 5 Delay and Skew Optimization | Checksum: 238980bad
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+Phase 5 Delay and Skew Optimization | Checksum: 13c59dc41
 
-Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4149 ; free virtual = 6407
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:35 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1dda67a37
+Phase 6.1.1 Update Timing | Checksum: a7d73e37
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:00:53 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.370  | TNS=0.000  | WHS=0.030  | THS=0.000  |
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.641  | TNS=0.000  | WHS=0.023  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 207b27cff
+Phase 6.1 Hold Fix Iter | Checksum: 88f0eaba
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
-Phase 6 Post Hold Fix | Checksum: 207b27cff
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
+Phase 6 Post Hold Fix | Checksum: 88f0eaba
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.85677 %
-  Global Horizontal Routing Utilization  = 1.33426 %
+  Global Vertical Routing Utilization    = 0.862732 %
+  Global Horizontal Routing Utilization  = 1.20269 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -648,43 +634,43 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 1aa17d863
+Phase 7 Route finalize | Checksum: 103a97d89
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 1aa17d863
+Phase 8 Verifying routed nets | Checksum: 103a97d89
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3853 ; free virtual = 6433
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 19807bcf0
+Phase 9 Depositing Routes | Checksum: 1b19a49c6
 
-Time (s): cpu = 00:01:26 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3852 ; free virtual = 6432
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=1.370  | TNS=0.000  | WHS=0.030  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.641  | TNS=0.000  | WHS=0.023  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 19807bcf0
+Phase 10 Post Router Timing | Checksum: 1b19a49c6
 
-Time (s): cpu = 00:01:26 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3852 ; free virtual = 6432
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:26 ; elapsed = 00:00:54 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:36 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3852 ; free virtual = 6432
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-60 Infos, 64 Warnings, 64 Critical Warnings and 0 Errors encountered.
+59 Infos, 64 Warnings, 64 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:27 ; elapsed = 00:00:55 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6406
+route_design: Time (s): cpu = 00:01:02 ; elapsed = 00:00:37 . Memory (MB): peak = 1936.828 ; gain = 0.000 ; free physical = 3852 ; free virtual = 6432
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1937.824 ; gain = 0.000 ; free physical = 4148 ; free virtual = 6407
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1937.668 ; gain = 0.000 ; free physical = 3852 ; free virtual = 6432
 INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Coretcl 2-168] The results of DRC are in file /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/MP3_Design_wrapper_drc_routed.rpt.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
@@ -821,179 +807,7 @@ Creating bitstream...
 Writing bitstream ./MP3_Design_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed May 25 09:12:20 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.1/doc/webtalk_introduction.html.
+INFO: [Common 17-186] '/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu May 26 17:00:07 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.1/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-write_bitstream: Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 2280.988 ; gain = 289.281 ; free physical = 3801 ; free virtual = 6060
-INFO: [Common 17-206] Exiting Vivado at Wed May 25 09:12:20 2016...
-
-*** Running vivado
-    with args -log MP3_Design_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source MP3_Design_wrapper.tcl -notrace
-
-
-****** Vivado v2016.1 (64-bit)
-  **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
-  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
-
-source MP3_Design_wrapper.tcl -notrace
-Command: open_checkpoint MP3_Design_wrapper_routed.dcp
-
-Starting open_checkpoint Task
-
-Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.09 . Memory (MB): peak = 963.301 ; gain = 0.000 ; free physical = 5027 ; free virtual = 7545
-INFO: [Netlist 29-17] Analyzing 179 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2016.1
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/.Xil/Vivado-17481-ubuntu/dcp/MP3_Design_wrapper_early.xdc]
-INFO: [Timing 38-35] Done setting XDC timing constraints. [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_mdm_1_0/MP3_Design_mdm_1_0.xdc:50]
-get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1666.773 ; gain = 458.445 ; free physical = 4428 ; free virtual = 6963
-INFO: [Timing 38-2] Deriving generated clocks [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_clk_wiz_1_0/MP3_Design_clk_wiz_1_0.xdc:57]
-Finished Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/.Xil/Vivado-17481-ubuntu/dcp/MP3_Design_wrapper_early.xdc]
-Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/.Xil/Vivado-17481-ubuntu/dcp/MP3_Design_wrapper.xdc]
-Finished Parsing XDC File [/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/.Xil/Vivado-17481-ubuntu/dcp/MP3_Design_wrapper.xdc]
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00.49 ; elapsed = 00:00:00.62 . Memory (MB): peak = 1674.773 ; gain = 6.000 ; free physical = 4420 ; free virtual = 6955
-Restored from archive | CPU: 0.560000 secs | Memory: 5.759781 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00.49 ; elapsed = 00:00:00.62 . Memory (MB): peak = 1674.773 ; gain = 6.000 ; free physical = 4420 ; free virtual = 6955
-INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 111 instances were transformed.
-  LUT6_2 => LUT6_2 (LUT6, LUT5): 63 instances
-  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 16 instances
-  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
-
-INFO: [Project 1-604] Checkpoint was created with Vivado v2016.1 (64-bit) build 1538259
-open_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1674.773 ; gain = 711.473 ; free physical = 4419 ; free virtual = 6954
-Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
-Running DRC as a precondition to command write_bitstream
-INFO: [DRC 23-27] Running DRC with 4 threads
-WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
-
- set_property CFGBVS value1 [current_design]
- #where value1 is either VCCO or GND
-
- set_property CONFIG_VOLTAGE value2 [current_design]
- #where value2 is the voltage provided to configuration bank 0
-
-Refer to the device configuration user guide for more information.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[0].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[0].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[10].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[10].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[11].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[11].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[12].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[12].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[13].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[13].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[14].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[14].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[15].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[15].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[16].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[16].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[17].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[17].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[18].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[18].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[19].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[19].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[1].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[1].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[20].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[20].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[21].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[21].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[22].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[22].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[23].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[23].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[24].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[24].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[25].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[25].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[26].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[26].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[27].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[27].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[28].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[28].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[29].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[29].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[2].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[2].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[30].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[30].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[31].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[31].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[3].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[3].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[4].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[4].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[5].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[5].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[6].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[6].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[7].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[7].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[8].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[8].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A2' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[9].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[9].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[10].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[10].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[11].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[11].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[12].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[12].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[13].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[13].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[14].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[14].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[15].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[15].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[16].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[16].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[17].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[17].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[18].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[18].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[19].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[19].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[1].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[1].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[20].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[20].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[21].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[21].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[22].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[22].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[23].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[23].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[24].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[24].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[25].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[25].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[26].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[26].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[27].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[27].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[28].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[28].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[29].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[29].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[2].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[2].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[30].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[30].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[31].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[31].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[3].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[3].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[4].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[4].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[5].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[5].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[6].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[6].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[7].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[7].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[8].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[8].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[9].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[9].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[0].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[0].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[10].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[10].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[11].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[11].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[12].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[12].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[13].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[13].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[14].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[14].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[15].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[15].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[16].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[16].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[17].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[17].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[18].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[18].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[19].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[19].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[1].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[1].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[20].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[20].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[21].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[21].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[22].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[22].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[23].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[23].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[24].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[24].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[25].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[25].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[26].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[26].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[27].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[27].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[28].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[28].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[29].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[29].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[2].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[2].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[30].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[30].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[31].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[31].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[3].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[3].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[4].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[4].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[5].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[5].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[6].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[6].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[7].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[7].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[8].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[8].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A3' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[9].I_RET_ADDR_WB/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/exception_registers_I1/Using_FPGA_LUT6.Gen_Ret_Addr[9].I_RET_ADDR_WB/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A4)+(A1*(~A4)*(~A5))+((~A1)*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A4' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[10].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[10].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A4' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[11].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[11].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A4' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[12].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[12].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-WARNING: [DRC 23-20] Rule violation (PDCN-1569) LUT equation term check - Used physical LUT pin 'A4' of cell MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[13].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native/LUT5 (in MP3_Design_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/ALU_I/ALL_Bits[13].ALU_Bit_I1/Not_Last_Bit.I_ALU_LUT_V5/Using_FPGA.Native macro) is not included in the LUT equation: 'O5=(A1*A2*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
-INFO: [Common 17-14] Message 'DRC 23-20' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Vivado 12-3199] DRC finished with 0 Errors, 127 Warnings
-INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
-INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.srcs/sources_1/bd/MP3_Design/ip/MP3_Design_microblaze_0_0/data/mb_bootloop_le.elf 
-INFO: [Designutils 20-2272] Running write_bitstream with 4 threads.
-Loading data files...
-Loading site data...
-Loading route data...
-Processing options...
-Creating bitmap...
-Creating bitstream...
-Writing bitstream ./MP3_Design_wrapper.bit...
-INFO: [Vivado 12-1842] Bitgen Completed Successfully.
-INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_1/project_1.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed May 25 16:08:55 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.1/doc/webtalk_introduction.html.
-INFO: [Common 17-83] Releasing license: Implementation
-write_bitstream: Time (s): cpu = 00:00:33 ; elapsed = 00:00:25 . Memory (MB): peak = 2116.750 ; gain = 441.973 ; free physical = 4023 ; free virtual = 6568
-INFO: [Common 17-206] Exiting Vivado at Wed May 25 16:08:55 2016...
+write_bitstream: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 2278.984 ; gain = 293.281 ; free physical = 3501 ; free virtual = 6088
+INFO: [Common 17-206] Exiting Vivado at Thu May 26 17:00:07 2016...

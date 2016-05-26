@@ -1,4 +1,4 @@
-09:53:50 **** Build of project mem_bsp ****
+09:06:00 **** Build of project app_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
@@ -27,1784 +27,515 @@ Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
 make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
 Compiling uartlite
 Finished building libraries
-09:53:59 **** Build of configuration Debug for project mem ****
+09:06:05 **** Auto Build of project app_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+09:06:11 **** Build of configuration Debug for project app ****
 make all 
+make: Warning: File `objects.mk' has modification time 0.22 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
 Building file: ../src/platform.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 Finished building: ../src/platform.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   2888	    288	   3120	   6296	   1898	mem.elf
-Finished building: mem.elf.size
+   2888	    288	   3120	   6296	   1898	app.elf
+Finished building: app.elf.size
  
-09:54:01 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   2888	    288	   3120	   6296	   1898	mem.elf
-Finished building: mem.elf.size
- 
-09:54:58 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-09:55:35 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-09:56:28 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-09:57:28 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `makefile' has modification time 0.14 s in the future
 make: warning:  Clock skew detected.  Your build may be incomplete.
-make: Nothing to be done for `all'.
-09:59:37 **** Incremental Build of configuration Debug for project mem ****
+09:06:13 **** Auto Build of configuration Debug for project app ****
 make all 
-make: Nothing to be done for `all'.
-10:00:32 **** Auto Build of configuration Debug for project mem ****
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    288	   3120	   6296	   1898	app.elf
+Finished building: app.elf.size
+ 
+09:07:55 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
+   5576	    288	   3152	   9016	   2338	app.elf
+Finished building: app.elf.size
  
-10:00:36 **** Incremental Build of configuration Debug for project mem ****
+09:08:41 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
+   5576	    288	   3152	   9016	   2338	app.elf
+Finished building: app.elf.size
  
-10:02:08 **** Auto Build of configuration Debug for project mem ****
+09:09:01 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5504	    288	   3152	   8944	   22f0	app.elf
+Finished building: app.elf.size
+ 
+09:09:02 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5504	    288	   3152	   8944	   22f0	app.elf
+Finished building: app.elf.size
+ 
+09:11:15 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    288	   3152	   9112	   2398	app.elf
+Finished building: app.elf.size
+ 
+09:11:20 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    288	   3152	   9112	   2398	app.elf
+Finished building: app.elf.size
+ 
+09:11:23 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    288	   3152	   9112	   2398	app.elf
+Finished building: app.elf.size
+ 
+09:11:25 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    288	   3152	   9112	   2398	app.elf
+Finished building: app.elf.size
+ 
+09:18:49 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 ../src/helloworld.c: In function 'main':
-../src/helloworld.c:74:9: error: redefinition of 'rom_addr'
-     u32 rom_addr = 7;
+../src/helloworld.c:78:9: warning: unused variable 'rom_array' [-Wunused-variable]
+     u32 rom_array[8] = {0};
          ^
-../src/helloworld.c:73:9: note: previous definition of 'rom_addr' was here
-     u32 rom_addr = 1;
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5704	    288	   3152	   9144	   23b8	app.elf
+Finished building: app.elf.size
+ 
+09:18:52 **** Incremental Build of configuration Debug for project app ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5704	    288	   3152	   9144	   23b8	app.elf
+Finished building: app.elf.size
+ 
+09:19:24 **** Auto Build of configuration Debug for project app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:9: warning: variable 'rom_array' set but not used [-Wunused-but-set-variable]
+     u32 rom_array[8] = {0};
          ^
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-make: *** [src/helloworld.o] Error 1
-10:02:25 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5292	    288	   3156	   8736	   2220	mem.elf
-Finished building: mem.elf.size
+   5736	    288	   3152	   9176	   23d8	app.elf
+Finished building: app.elf.size
  
-10:02:33 **** Incremental Build of configuration Debug for project mem ****
+09:51:27 **** Auto Build of configuration Debug for project app ****
 make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5292	    288	   3156	   8736	   2220	mem.elf
-Finished building: mem.elf.size
- 
-10:08:36 **** Auto Build of configuration Debug for project mem ****
-make all 
+make: Warning: File `src/subdir.mk' has modification time 0.22 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 ../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:08:41 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:09:08 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:74:9: warning: unused variable 'j' [-Wunused-variable]
-     int j = 0;
+../src/helloworld.c:78:9: warning: variable 'rom_array' set but not used [-Wunused-but-set-variable]
+     u32 rom_array[8] = {0};
          ^
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5256	    288	   3152	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
- 
-10:09:10 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5256	    288	   3152	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
- 
-10:10:09 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:10:28 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `makefile' has modification time 0.11 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
-make: warning:  Clock skew detected.  Your build may be incomplete.
- 
-10:10:36 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:12:22 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:12:53 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:13:13 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:14:07 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.05 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
+   5808	    288	   3152	   9248	   2420	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:14:08 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
- 
-10:16:30 **** Auto Build of configuration Debug for project mem ****
+09:53:16 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
+   5992	    288	   3152	   9432	   24d8	app.elf
+Finished building: app.elf.size
  
-10:16:33 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:17:48 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:18:25 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:18:27 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:18:43 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
- 
-10:18:45 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.12 s in the future
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5252	    288	   3156	   8696	   21f8	mem.elf
-Finished building: mem.elf.size
- 
-make: warning:  Clock skew detected.  Your build may be incomplete.
-10:19:21 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:20:50 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5288	    288	   3152	   8728	   2218	mem.elf
-Finished building: mem.elf.size
- 
-10:21:23 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-10:21:25 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-10:25:32 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-10:25:35 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-10:25:44 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:27:49 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.086 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-make: warning:  Clock skew detected.  Your build may be incomplete.
-10:27:52 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.096 s in the future
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5312	    288	   3152	   8752	   2230	mem.elf
-Finished building: mem.elf.size
- 
-make: warning:  Clock skew detected.  Your build may be incomplete.
-10:28:52 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5324	    288	   3156	   8768	   2240	mem.elf
-Finished building: mem.elf.size
- 
-10:28:54 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5324	    288	   3156	   8768	   2240	mem.elf
-Finished building: mem.elf.size
- 
-10:29:47 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5336	    288	   3152	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:29:51 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5336	    288	   3152	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:30:17 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5336	    288	   3152	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:30:20 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5336	    288	   3152	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:30:36 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5324	    288	   3156	   8768	   2240	mem.elf
-Finished building: mem.elf.size
- 
-10:30:41 **** Incremental Build of configuration Debug for project mem ****
+09:53:17 **** Incremental Build of configuration Debug for project app ****
 make all 
 make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5324	    288	   3156	   8768	   2240	mem.elf
-Finished building: mem.elf.size
+   5992	    288	   3152	   9432	   24d8	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:31:16 **** Auto Build of configuration Debug for project mem ****
+09:54:04 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5332	    288	   3156	   8776	   2248	mem.elf
-Finished building: mem.elf.size
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
  
-10:32:44 **** Incremental Build of configuration Debug for project mem ****
+09:54:06 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Nothing to be done for `all'.
-10:33:08 **** Auto Build of configuration Debug for project mem ****
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
+ 
+09:54:24 **** Auto Build of configuration Debug for project app ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5332	    288	   3156	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:33:10 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5332	    288	   3156	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:34:41 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5332	    288	   3156	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:34:43 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5332	    288	   3156	   8776	   2248	mem.elf
-Finished building: mem.elf.size
- 
-10:35:11 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.03 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5368	    288	   3152	   8808	   2268	mem.elf
-Finished building: mem.elf.size
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:35:15 **** Incremental Build of configuration Debug for project mem ****
+09:54:27 **** Incremental Build of configuration Debug for project app ****
 make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5368	    288	   3152	   8808	   2268	mem.elf
-Finished building: mem.elf.size
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
-10:37:53 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.038 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:86:6: error: redefinition of 'rom_addr_tmp'
-  u32 rom_addr_tmp = 2 << 19;
-      ^
-../src/helloworld.c:74:6: note: previous definition of 'rom_addr_tmp' was here
-  u32 rom_addr_tmp = 1 << 19;
-      ^
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-make: *** [src/helloworld.o] Error 1
-10:38:09 **** Auto Build of configuration Debug for project mem ****
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
+ 
+09:54:56 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5356	    288	   3156	   8800	   2260	mem.elf
-Finished building: mem.elf.size
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
  
-10:38:12 **** Incremental Build of configuration Debug for project mem ****
+09:54:58 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5356	    288	   3156	   8800	   2260	mem.elf
-Finished building: mem.elf.size
+   6072	    288	   3152	   9512	   2528	app.elf
+Finished building: app.elf.size
  
-10:39:43 **** Auto Build of configuration Debug for project mem ****
+10:20:52 **** Auto Build of configuration Debug for project app ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6452	    288	   3156	   9896	   26a8	mem.elf
-Finished building: mem.elf.size
+   6208	    288	   3152	   9648	   25b0	app.elf
+Finished building: app.elf.size
  
-10:39:46 **** Incremental Build of configuration Debug for project mem ****
+10:26:22 **** Auto Build of configuration Debug for project app ****
 make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6452	    288	   3156	   9896	   26a8	mem.elf
-Finished building: mem.elf.size
- 
-10:40:11 **** Auto Build of configuration Debug for project mem ****
-make all 
+make: Warning: File `src/subdir.mk' has modification time 0.0072 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6392	    288	   3152	   9832	   2668	mem.elf
-Finished building: mem.elf.size
- 
-10:40:13 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6392	    288	   3152	   9832	   2668	mem.elf
-Finished building: mem.elf.size
- 
-10:41:09 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6044	    288	   3156	   9488	   2510	mem.elf
-Finished building: mem.elf.size
- 
-10:41:45 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6044	    288	   3156	   9488	   2510	mem.elf
-Finished building: mem.elf.size
- 
-10:42:34 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.23 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
-make: Nothing to be done for `all'.
-10:43:12 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:43:14 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:46:31 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:46:53 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5184	    288	   3152	   8624	   21b0	mem.elf
-Finished building: mem.elf.size
- 
-10:47:05 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.023 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5184	    288	   3152	   8624	   21b0	mem.elf
-Finished building: mem.elf.size
-make: warning:  Clock skew detected.  Your build may be incomplete.
- 
-10:47:08 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.028 s in the future
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5184	    288	   3152	   8624	   21b0	mem.elf
-Finished building: mem.elf.size
+   6352	    288	   3152	   9792	   2640	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:47:16 **** Incremental Build of configuration Debug for project mem ****
+10:26:24 **** Incremental Build of configuration Debug for project app ****
 make all 
-make: Nothing to be done for `all'.
-10:47:32 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
+make: Warning: File `src/subdir.mk' has modification time 0.057 s in the future
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5184	    288	   3152	   8624	   21b0	mem.elf
-Finished building: mem.elf.size
- 
-10:47:41 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5184	    288	   3152	   8624	   21b0	mem.elf
-Finished building: mem.elf.size
- 
-10:47:47 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:47:51 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Nothing to be done for `all'.
-10:49:43 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:49:45 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.062 s in the future
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
+   6352	    288	   3152	   9792	   2640	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:50:04 **** Auto Build of configuration Debug for project mem ****
+10:26:44 **** Auto Build of configuration Debug for project app ****
 make all 
-make: Warning: File `src/subdir.mk' has modification time 0.21 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
+   6208	    288	   3152	   9648	   25b0	app.elf
+Finished building: app.elf.size
+ 
+10:26:45 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.25 s in the future
+Invoking: MicroBlaze Print Size
+mb-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6208	    288	   3152	   9648	   25b0	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-10:50:06 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:50:43 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:50:47 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:52:21 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6060	    288	   3156	   9504	   2520	mem.elf
-Finished building: mem.elf.size
- 
-10:52:29 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   6060	    288	   3156	   9504	   2520	mem.elf
-Finished building: mem.elf.size
- 
-10:53:29 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:53:37 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:54:14 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:54:32 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:54:45 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:54:47 **** Incremental Build of configuration Debug for project mem ****
+10:27:01 **** Auto Build of configuration Debug for project app ****
 make all 
 make: Warning: File `src/subdir.mk' has modification time 0.17 s in the future
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
-make: warning:  Clock skew detected.  Your build may be incomplete.
- 
-10:55:14 **** Auto Build of configuration Debug for project mem ****
-make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:55:16 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:56:58 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:57:01 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5200	    288	   3152	   8640	   21c0	mem.elf
-Finished building: mem.elf.size
- 
-10:59:08 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-10:59:11 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:00:33 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5260	    288	   3156	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:00:37 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5260	    288	   3156	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:00:54 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:01:09 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:02:46 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.069 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:54:7: warning: unused variable 'c' [-Wunused-variable]
-  char c;
-       ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
+   5992	    288	   3152	   9432	   24d8	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-11:04:18 **** Auto Build of configuration Debug for project mem ****
+10:27:02 **** Incremental Build of configuration Debug for project app ****
 make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
+make: Warning: File `src/subdir.mk' has modification time 0.076 s in the future
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:05:14 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:06:21 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-11:06:23 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5264	    288	   3152	   8704	   2200	mem.elf
-Finished building: mem.elf.size
- 
-08:29:24 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'printCharArrayU32':
-../src/helloworld.c:23:8: warning: unused variable 's' [-Wunused-variable]
-  char *s = "000";
-        ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5564	    288	   3156	   9008	   2330	mem.elf
-Finished building: mem.elf.size
- 
-08:29:30 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5552	    288	   3152	   8992	   2320	mem.elf
-Finished building: mem.elf.size
- 
-08:32:45 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5552	    288	   3152	   8992	   2320	mem.elf
-Finished building: mem.elf.size
- 
-08:33:23 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.16 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:81:6: warning: unused variable 'rom_addr_tmp' [-Wunused-variable]
-  u32 rom_addr_tmp = addr << 20;
-      ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5552	    288	   3152	   8992	   2320	mem.elf
-Finished building: mem.elf.size
+   5992	    288	   3152	   9432	   24d8	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-08:33:25 **** Incremental Build of configuration Debug for project mem ****
+10:27:32 **** Auto Build of configuration Debug for project app ****
 make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5552	    288	   3152	   8992	   2320	mem.elf
-Finished building: mem.elf.size
- 
-08:33:39 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.034 s in the future
+make: Warning: File `src/subdir.mk' has modification time 0.29 s in the future
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: mem.elf
+Building target: app.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
  
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5476	    288	   3156	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
+   6020	    288	   3156	   9464	   24f8	app.elf
+Finished building: app.elf.size
  
 make: warning:  Clock skew detected.  Your build may be incomplete.
-08:34:03 **** Auto Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.13 s in the future
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5468	    288	   3156	   8912	   22d0	mem.elf
-Finished building: mem.elf.size
- 
-make: warning:  Clock skew detected.  Your build may be incomplete.
-08:34:05 **** Incremental Build of configuration Debug for project mem ****
-make all 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5468	    288	   3156	   8912	   22d0	mem.elf
-Finished building: mem.elf.size
- 
-08:36:03 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5476	    288	   3156	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
- 
-08:36:05 **** Incremental Build of configuration Debug for project mem ****
+10:27:34 **** Incremental Build of configuration Debug for project app ****
 make all 
 Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
+mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5476	    288	   3156	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
+   6020	    288	   3156	   9464	   24f8	app.elf
+Finished building: app.elf.size
  
-08:36:22 **** Auto Build of configuration Debug for project mem ****
+10:28:16 **** Incremental Build of configuration Debug for project app ****
 make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5480	    288	   3152	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
- 
-08:36:24 **** Incremental Build of configuration Debug for project mem ****
+make: Nothing to be done for `all'.
+10:29:10 **** Incremental Build of configuration Debug for project app ****
 make all 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5480	    288	   3152	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
- 
-08:37:03 **** Auto Build of configuration Debug for project mem ****
+make: Nothing to be done for `all'.
+10:30:19 **** Incremental Build of configuration Debug for project app ****
 make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
-  int i = 0;
-      ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5484	    288	   3156	   8928	   22e0	mem.elf
-Finished building: mem.elf.size
- 
-08:37:07 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
-  int i;
-      ^
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5480	    288	   3152	   8920	   22d8	mem.elf
-Finished building: mem.elf.size
- 
-08:39:12 **** Auto Build of configuration Debug for project mem ****
-make all 
-Building file: ../src/helloworld.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building target: mem.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: mem.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5576	    288	   3152	   9016	   2338	mem.elf
-Finished building: mem.elf.size
- 
-08:39:13 **** Incremental Build of configuration Debug for project mem ****
-make all 
-make: Warning: File `src/subdir.mk' has modification time 0.088 s in the future
-Invoking: MicroBlaze Print Size
-mb-size mem.elf  |tee "mem.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5576	    288	   3152	   9016	   2338	mem.elf
-Finished building: mem.elf.size
- 
-make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `all'.
