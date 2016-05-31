@@ -1,0 +1,425 @@
+07:28:13 **** Build of project app2_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+07:28:20 **** Auto Build of project app2_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_4/src
+make -C microblaze_0/libsrc/cpu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/standalone_v5_4/src
+make -C microblaze_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+07:28:26 **** Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    288	   3120	   6296	   1898	app2.elf
+Finished building: app2.elf.size
+ 
+07:28:28 **** Auto Build of configuration Debug for project app2 ****
+make all 
+make: Nothing to be done for `all'.
+07:30:06 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:19:11: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+     u32 m,n = 0x0;
+           ^
+../src/helloworld.c:19:9: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+     u32 m,n = 0x0;
+         ^
+../src/helloworld.c:21:7: warning: 'input' is used uninitialized in this function [-Wuninitialized]
+     m = 0x000000FF & input;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3648	    288	   3120	   7056	   1b90	app2.elf
+Finished building: app2.elf.size
+ 
+07:31:29 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3648	    288	   3120	   7056	   1b90	app2.elf
+Finished building: app2.elf.size
+ 
+07:32:05 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 0.024 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+07:32:26 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:21:7: warning: 'input' is used uninitialized in this function [-Wuninitialized]
+     m = 0x000000FF & input;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3672	    288	   3120	   7080	   1ba8	app2.elf
+Finished building: app2.elf.size
+ 
+07:37:08 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3672	    288	   3120	   7080	   1ba8	app2.elf
+Finished building: app2.elf.size
+ 
+07:37:48 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:7: warning: 'input' is used uninitialized in this function [-Wuninitialized]
+     m = 0x000000FF & input;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3916	    288	   3124	   7328	   1ca0	app2.elf
+Finished building: app2.elf.size
+ 
+07:37:51 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3916	    288	   3124	   7328	   1ca0	app2.elf
+Finished building: app2.elf.size
+ 
+07:38:15 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:10: warning: implicit declaration of function 'XGpio_DiscreteRead' [-Wimplicit-function-declaration]
+  input = XGpio_DiscreteRead(&GPIO_0, 2);
+          ^
+../src/helloworld.c:50:30: error: 'GPIO_0' undeclared (first use in this function)
+  input = XGpio_DiscreteRead(&GPIO_0, 2);
+                              ^
+../src/helloworld.c:50:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+07:38:24 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:30: error: 'GPIO_0' undeclared (first use in this function)
+  input = XGpio_DiscreteRead(&GPIO_0, 2);
+                              ^
+../src/helloworld.c:50:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+07:39:01 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5136	    288	   3152	   8576	   2180	app2.elf
+Finished building: app2.elf.size
+ 
+07:39:02 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5136	    288	   3152	   8576	   2180	app2.elf
+Finished building: app2.elf.size
+ 
+07:40:37 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: unused variable 'output' [-Wunused-variable]
+     u32 output = 0x0;
+         ^
+../src/helloworld.c:62:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5428	    288	   3156	   8872	   22a8	app2.elf
+Finished building: app2.elf.size
+ 
+07:40:54 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5428	    288	   3156	   8872	   22a8	app2.elf
+Finished building: app2.elf.size
+ 
+07:46:41 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5624	    288	   3152	   9064	   2368	app2.elf
+Finished building: app2.elf.size
+ 
+07:46:43 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5624	    288	   3152	   9064	   2368	app2.elf
+Finished building: app2.elf.size
+ 
+07:50:11 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+make: Nothing to be done for `all'.
+07:51:14 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:15: warning: unused variable 'array' [-Wunused-variable]
+  unsigned int array[] = {0x1, 0x2};
+               ^
+../src/helloworld.c:66:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+../src/helloworld.c:66:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5132	    288	   3156	   8576	   2180	app2.elf
+Finished building: app2.elf.size
+ 
+07:51:16 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5132	    288	   3156	   8576	   2180	app2.elf
+Finished building: app2.elf.size
+ 
+07:52:07 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:15: warning: unused variable 'array' [-Wunused-variable]
+  unsigned int array[] = {0x1, 0x2};
+               ^
+../src/helloworld.c:66:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+../src/helloworld.c:66:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5176	    288	   3152	   8616	   21a8	app2.elf
+Finished building: app2.elf.size
+ 
+07:52:09 **** Incremental Build of configuration Debug for project app2 ****
+make all 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5176	    288	   3152	   8616	   21a8	app2.elf
+Finished building: app2.elf.size
+ 
+07:52:43 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5624	    288	   3152	   9064	   2368	app2.elf
+Finished building: app2.elf.size
+ 
+07:53:08 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5624	    288	   3152	   9064	   2368	app2.elf
+Finished building: app2.elf.size
+ 

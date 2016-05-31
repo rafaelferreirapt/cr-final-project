@@ -1,11 +1,23 @@
-11:07:22 **** Incremental Build of configuration Debug for project app ****
+05:01:55 **** Incremental Build of configuration Debug for project app ****
 make all 
+make: Warning: File `src/subdir.mk' has modification time 0.058 s in the future
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
 Invoking: MicroBlaze Print Size
 mb-size app.elf  |tee "app.elf.size"
    text	   data	    bss	    dec	    hex	filename
    6076	    288	   3156	   9520	   2530	app.elf
 Finished building: app.elf.size
  
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
-11:07:22 Build Finished (took 204ms)
+05:01:56 Build Finished (took 497ms)
 

@@ -1,0 +1,25 @@
+07:53:08 **** Auto Build of configuration Debug for project app2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../app2_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+Finished building: ../src/helloworld.c
+ 
+Building target: app2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "app2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: app2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size app2.elf  |tee "app2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5624	    288	   3152	   9064	   2368	app2.elf
+Finished building: app2.elf.size
+ 
+
+07:53:09 Build Finished (took 388ms)
+

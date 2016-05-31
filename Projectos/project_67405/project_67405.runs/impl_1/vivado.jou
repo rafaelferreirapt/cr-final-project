@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue May 31 15:24:32 2016
+# Process ID: 11880
+# Current directory: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.runs/impl_1
+# Command line: vivado -log MP3_Design_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source MP3_Design_wrapper.tcl -notrace
+# Log file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.runs/impl_1/MP3_Design_wrapper.vdi
+# Journal file: /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source MP3_Design_wrapper.tcl -notrace

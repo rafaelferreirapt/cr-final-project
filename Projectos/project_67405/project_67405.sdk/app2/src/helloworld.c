@@ -1,32 +1,121 @@
 #include <stdio.h>
 #include "platform.h"
-#include "xil_printf.h"
+#include "xgpio.h"
+#include "xparameters.h"
+#include "microblaze_sleep.h"
 
-void simplePrint(u32 in){
-	char *s = "000";
-	s[2] = (char)((in%10)+0x30);
-	s[1] = (char)(((in/10)%10)+0x30);
-	s[0] = (char)(in/100+0x30);
-	print("data = ");
-	print(s);
+char inbyte(void);
+void outbyte(char c);
+
+//declare an XGpio and XGpio instance
+XGpio GPIO_0;
+XGpio_Config GPIO_0_conf;
+
+unsigned int countSetBits(unsigned int n)
+{
+  unsigned int c = 0; // the total bits set in n
+  for (c = 0; n; n = n & (n-1))
+  {
+    c++;
+  }
+  return c;
 }
+
+void printCharArrayU32(u32 n, int base)
+{
+	char number[32] = {0};
+	int number_i = 31;
+
+	while(n!=0){
+		if(n / base == 0 && n % base == 0){
+			break;
+		}
+
+		int res = n % base;
+
+		if(res >= 0 && res <= 9){
+			number[number_i] = (res + '0');
+		}else if(res > 9 && res <= 15){
+			number[number_i] = (res - 10 + 'A');
+		}
+
+		number_i = number_i - 1;
+		n = n / base;
+	}
+
+	int j = number_i+1;
+
+	// print with outbyte
+
+	if(base==16){
+		outbyte('0');
+		outbyte('x');
+	}
+
+	for(; j<32; j++){
+		outbyte(number[j]);
+	}
+
+	print("\n");
+}
+
 
 int main()
 {
+	int i, j;
+
+	unsigned int array[] = {0x1, 0x2};
+
+	GPIO_0_conf.BaseAddress = XPAR_AXI_GPIO_0_BASEADDR;
+	GPIO_0_conf.DeviceId = XPAR_GPIO_0_DEVICE_ID;
+	GPIO_0_conf.InterruptPresent = XPAR_GPIO_0_INTERRUPT_PRESENT;
+	GPIO_0_conf.IsDual = XPAR_GPIO_0_IS_DUAL;
+
+	//Initialize the XGpio instance
+	XGpio_CfgInitialize(&GPIO_0, &GPIO_0_conf, GPIO_0_conf.BaseAddress);
+
     init_platform();
+
     print("\nInit\n\r");
+
+    /*
+    u32 output = 0x0;
+	output = output | 0x2;
+    XGpio_DiscreteWrite(&GPIO_0, 1, output);
+	*/
+
+    u32 output = 0x0;
     u32 input;
+
     u32 m,n = 0x0;
 
-    m = 0x000000FF & input;
-    n = (0x0000FF00 & input) >> 8;
+	input = XGpio_DiscreteRead(&GPIO_0, 2);
+	m = 0x000000FF & input;
+	n = (0x0000FF00 & input) >> 8;
 
-    simplePrint(m);
-    simplePrint(n);
+	printCharArrayU32(m, 16);
+	printCharArrayU32(n, 16);
 
+	unsigned int array_new[2] = {0};
+	unsigned int new_i = 0;
 
+	for(i=0; i<2; i++){
+		unsigned int hamming = countSetBits(array[i]);
+		if(hamming < m && hamming > n){
+			array_new[new_i] = array[i];
+			new_i = new_i + 1;
+		}
+	}
+
+	for(i=0;i<new_i;i++){
+		output = 0x0;
+		output = output | array_new[i];
+	    XGpio_DiscreteWrite(&GPIO_0, 1, output);
+		MB_Sleep(1000);
+	}
 
     print("\nThe program has been terminated\n\r");
     cleanup_platform();
+
     return 0;
 }

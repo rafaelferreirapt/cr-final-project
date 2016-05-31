@@ -1,0 +1,86 @@
+07:27:17 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/temp_xsdb_launch_script.tcl
+07:27:18 INFO  : XSDB server has started successfully.
+07:27:18 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper.hdf.
+07:31:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:31:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505419A" && level==0} -index 0' command is executed.
+07:31:26 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+07:31:33 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:451)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+07:32:06 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:451)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+07:34:41 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/temp_xsdb_launch_script.tcl
+07:34:43 INFO  : XSDB server has started successfully.
+07:34:44 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper.hdf.
+07:34:45 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+07:36:03 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/temp_xsdb_launch_script.tcl
+07:36:04 INFO  : XSDB server has started successfully.
+07:36:07 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper.hdf.
+07:36:09 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
+07:36:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:36:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505419A" && level==0} -index 0' command is executed.
+07:36:38 INFO  : FPGA configured successfully with bitstream "/media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper_hw_platform_0/download.bit"
+07:37:13 INFO  : Processor reset is completed for microblaze_0
+07:37:51 INFO  : Processor reset is completed for microblaze_0
+07:38:25 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:38:25 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:38:25 ERROR : Disconnect target failed.
+07:39:03 INFO  : Processor reset is completed for microblaze_0
+07:40:23 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:40:23 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:40:23 ERROR : Disconnect target failed.
+07:40:54 INFO  : Processor reset is completed for microblaze_0
+07:42:02 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:42:02 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:42:02 ERROR : Disconnect target failed.
+07:46:44 INFO  : Processor reset is completed for microblaze_0
+07:47:54 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:47:54 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:47:54 ERROR : Disconnect target failed.
+07:50:11 INFO  : Processor reset is completed for microblaze_0
+07:51:17 INFO  : Processor reset is completed for microblaze_0
+07:51:35 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:51:35 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:51:35 ERROR : Disconnect target failed.
+07:52:10 INFO  : Processor reset is completed for microblaze_0
+07:53:28 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+07:53:28 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+07:53:28 ERROR : Disconnect target failed.
+07:53:28 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:56:30 INFO  : Launching XSDB server: xsdb -n -interactive /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/temp_xsdb_launch_script.tcl
+07:56:32 INFO  : XSDB server has started successfully.
+07:56:32 INFO  : Processing command line option -hwspec /media/psf/Home/Development/ect_ua/cr-final-project/Projectos/project_67405/project_67405.sdk/MP3_Design_wrapper.hdf.
+07:56:33 INFO  : Checking for hwspec changes in the project MP3_Design_wrapper_hw_platform_0.
